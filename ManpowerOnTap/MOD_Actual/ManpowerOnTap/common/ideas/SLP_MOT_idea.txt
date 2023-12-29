@@ -1,0 +1,71 @@
+ideas = {
+
+	#Active - Child Support Services
+	country = {
+		SLP_growthdecs_childsupport_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_morale_bonus
+			modifier = {
+				monthly_population = 0.3
+				consumer_goods_factor = 0.05
+				stability_factor = 0.03
+			}
+		}
+	}
+	
+	#Active - Financial Support for Single Mothers
+	country = {
+		SLP_growthdecs_finasupport_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_constitutional_guarantee
+			modifier = {
+				monthly_population = 0.2
+				consumer_goods_factor = 0.03
+				stability_factor = 0.03
+			}
+		}
+	}
+	
+	#Active - Encourage Women to have Children
+	country = {
+		SLP_growthdecs_encourgebirth_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = ITA_battaglie_per_la_nascite
+			modifier = {
+				monthly_population = 0.25
+				political_power_cost = 0.05
+			}
+		}
+	}
+	
+	#Active - Incentivise Adoption
+	country = {
+		SLP_growthdecs_adopt_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = NOR_printing_money
+			modifier = {
+				monthly_population = 0.25
+				consumer_goods_factor = 0.03
+			}
+		}
+	}
+	
+	
+	
+}

@@ -348,7 +348,7 @@ economy_decisions_slp = {
 		
 		######### Buy Dockyard - 1 Unit #########
 		SLP_dockyard_factory_buy_1 = {
-			icon = ITA_cooperation_programs
+			icon = generic_naval
 
 			available = {
 			}
@@ -374,7 +374,7 @@ economy_decisions_slp = {
 		
 		######### Buy Dockyard Factory - 3 Unit #########
 		SLP_dockyard_factory_buy_2 = {
-			icon = ITA_cooperation_programs
+			icon = generic_naval
 
 			available = {
 			}
@@ -400,7 +400,7 @@ economy_decisions_slp = {
 		
 		######### Buy Dockyard Factory - 5 Unit #########
 		SLP_dockyard_factory_buy_3 = {
-			icon = ITA_cooperation_programs
+			icon = generic_naval
 
 			available = {
 			}
@@ -462,7 +462,7 @@ economy_decisions_slp = {
 		
 		######### Buy Refinery - 1 Unit #########
 		SLP_refinery_factory_buy_1 = {
-			icon = generic_prospect_for_resources
+			icon = oil
 
 			available = {
 			}
@@ -488,7 +488,7 @@ economy_decisions_slp = {
 		
 		######### Buy Refinery - 3 Unit #########
 		SLP_refinery_factory_buy_2 = {
-			icon = generic_prospect_for_resources
+			icon = oil
 
 			available = {
 			}

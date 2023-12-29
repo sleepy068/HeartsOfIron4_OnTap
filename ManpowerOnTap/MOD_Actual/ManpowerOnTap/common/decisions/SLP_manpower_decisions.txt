@@ -1,0 +1,292 @@
+manpower_decisions_slp = {
+
+        ################################## Population Planning ##################################
+		######### Population Planning - Menu #########
+		# Open Menu #
+		SLP_Menu_GrowthDecs1_OpenMenu = {
+			icon = eng_trade_unions_support
+			visible = {
+				NOT = {has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu}
+			}
+			available = {
+			}
+			complete_effect = {
+				set_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		# Close Menu #
+		SLP_Menu_GrowthDecs1_CloseMenu = {
+			icon = generic_break_treaty
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+			}
+			available = {
+			}
+			complete_effect = {
+				clr_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		######### Population Planning Decisions #########
+		#Child Support Services
+		#Start
+		SLP_growthdecs_childsupport_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_childsupport_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 50
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_childsupport_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_childsupport_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_childsupport_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_childsupport_active_1
+			}
+		}
+		
+		#Financial Support for Single Parents
+		#Start
+		SLP_growthdecs_finasupport_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_finasupport_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 40
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_finasupport_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_finasupport_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_finasupport_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_finasupport_active_1
+			}
+		}
+		
+		#Encourage Women to have Children
+		#Start
+		SLP_growthdecs_encourgebirth_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_encourgebirth_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 30
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_encourgebirth_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_encourgebirth_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_encourgebirth_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_encourgebirth_active_1
+			}
+		}
+		
+		#Incentivise Adoption 
+		#Start
+		SLP_growthdecs_adopt_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_adopt_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 50
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_adopt_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_adopt_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_adopt_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_adopt_active_1
+			}
+		}
+		
+		################# Recruitment Expansion Decisions #################
+		######### Recruitment Expansion Decisions - Menu #########
+		# Open Menu #
+		SLP_Menu_RecruitDecs1_OpenMenu = {
+			icon = eng_trade_unions_support
+			visible = {
+				NOT = {has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu}
+			}
+			available = {
+			}
+			complete_effect = {
+				set_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		# Close Menu #
+		SLP_Menu_RecruitDecs1_CloseMenu = {
+			icon = generic_break_treaty
+			visible = {
+				has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+			}
+			available = {
+			}
+			complete_effect = {
+				clr_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+}
