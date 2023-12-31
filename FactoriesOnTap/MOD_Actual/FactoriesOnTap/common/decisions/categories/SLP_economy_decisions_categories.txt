@@ -6,5 +6,5 @@ economy_decisions_slp = {
 	visible = {
 		always = yes
 	}
-	priority = 104
+	priority = 103
 }

@@ -37,60 +37,6 @@ manpower_decisions_slp = {
 		}
 		
 		######### Population Planning Decisions #########
-		#Child Support Services
-		#Start
-		SLP_growthdecs_childsupport_start_1 = {
-			icon = decision_generic_decision
-
-			available = {
-			}
-
-			visible = {
-				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
-				NOT = {has_idea = SLP_growthdecs_childsupport_active_1}
-			}
-
-			fire_only_once = no
-
-			modifier = {
-			}
-
-			days_remove = 0
-			days_re_enable = 0
-
-			cost = 50
-
-			complete_effect = {
-				add_ideas = SLP_growthdecs_childsupport_active_1
-			}
-		}
-		
-		#Stop
-		SLP_growthdecs_childsupport_stop_1 = {
-			icon = decision_generic_decision
-			
-			available = {
-			}
-
-			visible = {
-				has_idea = SLP_growthdecs_childsupport_active_1
-			}
-
-			fire_only_once = no
-
-			modifier = {
-			}
-
-			days_remove = 0
-			days_re_enable = 0
-
-			cost = 0
-
-			complete_effect = {
-				remove_ideas = SLP_growthdecs_childsupport_active_1
-			}
-		}
-		
 		#Financial Support for Single Parents
 		#Start
 		SLP_growthdecs_finasupport_start_1 = {
@@ -253,6 +199,654 @@ manpower_decisions_slp = {
 			}
 		}
 		
+		#Encourage Mutli Partners
+		#Start
+		SLP_growthdecs_multipart_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_mutlipart_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 75
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_mutlipart_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_multipart_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_mutlipart_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_mutlipart_active_1
+			}
+		}
+		
+		#Child Support Services
+		#Start
+		SLP_growthdecs_childsupport_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_childsupport_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 50
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_childsupport_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_childsupport_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_childsupport_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_childsupport_active_1
+			}
+		}
+		
+		#Family Health Initiative
+		#Start
+		SLP_growthdecs_familyhealth_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_familyhealth_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_familyhealth_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_familyhealth_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_familyhealth_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_familyhealth_active_1
+			}
+		}
+		
+		#Family Tax Benefit
+		#Start
+		SLP_growthdecs_familytax_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_familytax_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 30
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_familytax_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_familytax_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_familytax_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_familytax_active_1
+			}
+		}
+		
+		#Higher Taxation with No Children 
+		#Start
+		SLP_growthdecs_hightax_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_hightaxnochild_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 30
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_hightaxnochild_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_hightax_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_hightaxnochild_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_hightaxnochild_active_1
+			}
+		}
+		
+		#Immigration Drive
+		#Start
+		SLP_growthdecs_immigdrive_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_immigdrive_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 50
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_immigdrive_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_immigdrive_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_immigdrive_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_immigdrive_active_1
+			}
+		}
+		
+		#Many Child Policy
+		#Start
+		SLP_growthdecs_manychild_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_childpolicy_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 50
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_childpolicy_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_manychild_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_childpolicy_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_childpolicy_active_1
+			}
+		}
+		
+		#State Arranged Marriages
+		#Start
+		SLP_growthdecs_statearranged_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_arrangedmarriage_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_arrangedmarriage_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_statearranged_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_arrangedmarriage_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_arrangedmarriage_active_1
+			}
+		}
+		
+		#Ban Contraception
+		#Start
+		SLP_growthdecs_bancontrac_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_bancontraception_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_bancontraception_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_bancontrac_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_bancontraception_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_bancontraception_active_1
+			}
+		}
+		
+		#Family Poverty Eradication
+		#Start
+		SLP_growthdecs_familypover_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_familypoverty_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_familypoverty_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_familypover_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_familypoverty_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_familypoverty_active_1
+			}
+		}
+		
+		#Families First
+		#Start
+		SLP_growthdecs_familyfirst_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_familyfirst_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 50
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_familyfirst_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_familyfirst_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_familyfirst_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_familyfirst_active_1
+			}
+		}
+		
+		#Overshoot Population
+		#Start
+		SLP_growthdecs_overshoot_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_GrowthDecs1_OpenMenu
+				NOT = {has_idea = SLP_growthdecs_overshoot_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_growthdecs_overshoot_active_1
+			}
+		}
+		
+		#Stop
+		SLP_growthdecs_overshoot_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_growthdecs_overshoot_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_growthdecs_overshoot_active_1
+			}
+		}
+		
 		################# Recruitment Expansion Decisions #################
 		######### Recruitment Expansion Decisions - Menu #########
 		# Open Menu #
@@ -287,6 +881,528 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 			fire_only_once = no
+		}
+		
+		#Unsuitable Now Suitable 
+		#Start
+		SLP_recruitdecs_suitable_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+				NOT = {has_idea = SLP_recruitdecs_suitable_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 120
+
+			complete_effect = {
+				add_ideas = SLP_recruitdecs_suitable_active_1
+			}
+		}
+		
+		#Stop
+		SLP_recruitdecs_suitable_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_recruitdecs_suitable_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_recruitdecs_suitable_active_1
+			}
+		}
+		
+		#Penal Battalions 
+		#Start
+		SLP_recruitdecs_penalbat_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+				NOT = {has_idea = SLP_recruitdecs_penalbat_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_recruitdecs_penalbat_active_1
+			}
+		}
+		
+		#Stop
+		SLP_recruitdecs_penalbat_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_recruitdecs_penalbat_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_recruitdecs_penalbat_active_1
+			}
+		}
+		
+		#Recruit Foreign Visitors 
+		#Start
+		SLP_recruitdecs_foreignfight_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+				NOT = {has_idea = SLP_recruitdecs_foreignfight_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_recruitdecs_foreignfight_active_1
+			}
+		}
+		
+		#Stop
+		SLP_recruitdecs_foreignfight_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_recruitdecs_foreignfight_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_recruitdecs_foreignfight_active_1
+			}
+		}
+		
+		#Relax Child Labour Laws
+		#Start
+		SLP_recruitdecs_childlabour_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+				NOT = {has_idea = SLP_recruitdecs_childlabour_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 150
+
+			complete_effect = {
+				add_ideas = SLP_recruitdecs_childlabour_active_1
+			}
+		}
+		
+		#Stop
+		SLP_recruitdecs_childlabour_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_recruitdecs_childlabour_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_recruitdecs_childlabour_active_1
+			}
+		}
+		
+		#Youth Military Service
+		#Start
+		SLP_recruitdecs_youthfighter_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+				NOT = {has_idea = SLP_recruitdecs_youthfighter_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 200
+
+			complete_effect = {
+				add_ideas = SLP_recruitdecs_youthfighter_active_1
+			}
+		}
+		
+		#Stop
+		SLP_recruitdecs_youthfighter_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_recruitdecs_youthfighter_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_recruitdecs_youthfighter_active_1
+			}
+		}
+		
+		#Equality in the Military
+		#Start
+		SLP_recruitdecs_equality_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_RecruitDecs1_OpenMenu
+				NOT = {has_idea = SLP_recruitdecs_equality_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 100
+
+			complete_effect = {
+				add_ideas = SLP_recruitdecs_equality_active_1
+			}
+		}
+		
+		#Stop
+		SLP_recruitdecs_equality_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_recruitdecs_equality_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_recruitdecs_equality_active_1
+			}
+		}
+		
+		################# Manpower Growth Decisions #################
+		######### Manpower Growth Decisions - Menu #########
+		# Open Menu #
+		SLP_Menu_ManpowerDecs1_OpenMenu = {
+			icon = eng_trade_unions_support
+			visible = {
+				NOT = {has_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu}
+			}
+			available = {
+			}
+			complete_effect = {
+				set_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		# Close Menu #
+		SLP_Menu_ManpowerDecs1_CloseMenu = {
+			icon = generic_break_treaty
+			visible = {
+				has_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu
+			}
+			available = {
+			}
+			complete_effect = {
+				clr_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		#Occupied Conscription
+		#Start
+		SLP_manpowerdecs_occupied_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu
+				NOT = {has_idea = SLP_manpowerdecs_occupied_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 200
+
+			complete_effect = {
+				add_ideas = SLP_manpowerdecs_occupied_active_1
+			}
+		}
+		
+		#Stop
+		SLP_manpowerdecs_occupied_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_manpowerdecs_occupied_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_manpowerdecs_occupied_active_1
+			}
+		}
+		
+		#International Welfare State
+		#Start
+		SLP_manpowerdecs_welfare_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu
+				NOT = {has_idea = SLP_manpowerdecs_welfarestate_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 200
+
+			complete_effect = {
+				add_ideas = SLP_manpowerdecs_welfarestate_active_1
+			}
+		}
+		
+		#Stop
+		SLP_manpowerdecs_welfare_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_manpowerdecs_welfarestate_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_manpowerdecs_welfarestate_active_1
+			}
+		}
+		
+		#Ideological Beacon
+		#Start
+		SLP_manpowerdecs_ideobeacon_start_1 = {
+			icon = decision_generic_decision
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu
+				NOT = {has_idea = SLP_manpowerdecs_ideobeacon_active_1}
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 200
+
+			complete_effect = {
+				add_ideas = SLP_manpowerdecs_ideobeacon_active_1
+			}
+		}
+		
+		#Stop
+		SLP_manpowerdecs_ideobeacon_stop_1 = {
+			icon = decision_generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_manpowerdecs_ideobeacon_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_manpowerdecs_ideobeacon_active_1
+			}
 		}
 		
 }

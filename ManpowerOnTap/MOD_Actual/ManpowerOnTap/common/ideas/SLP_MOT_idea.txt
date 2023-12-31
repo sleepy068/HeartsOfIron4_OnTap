@@ -66,6 +66,340 @@ ideas = {
 		}
 	}
 	
+	#Active - Family Health Initiative
+	country = {
+		SLP_growthdecs_familyhealth_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = office_of_strategic_services
+			modifier = {
+				monthly_population = 0.40
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
 	
+	#Active - Family Tax Benefit
+	country = {
+		SLP_growthdecs_familytax_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_foreign_capital
+			modifier = {
+				monthly_population = 0.40
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+	
+	#Active - Higher Taxation with No Children 
+	country = {
+		SLP_growthdecs_hightaxnochild_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = fra_market_dynamism
+			modifier = {
+				monthly_population = 0.50
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	#Active - Immigration Drive
+	country = {
+		SLP_growthdecs_immigdrive_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = FRA_motorized_focus
+			modifier = {
+				monthly_population = 0.50
+				drift_defence_factor  = -0.10
+			}
+		}
+	}
+	
+	#Active - Many Child Policy
+	country = {
+		SLP_growthdecs_childpolicy_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			modifier = {
+				monthly_population = 0.50
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	#Active - Families First
+	country = {
+		SLP_growthdecs_familyfirst_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_disarmed_nation
+			modifier = {
+				monthly_population = 1.00
+				conscription = -0.010
+				recruitable_population_factor = -0.10
+			}
+		}
+	}
+	
+	#Active - Encourage Multiple Partners
+	country = {
+		SLP_growthdecs_mutlipart_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = prc_low_popular_support2
+			modifier = {
+				monthly_population = 0.25
+				political_power_cost = 0.05
+			}
+		}
+	}
+	
+	#Active - Overshoot Population
+	country = {
+		SLP_growthdecs_overshoot_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_economic_crisis
+			modifier = {
+				monthly_population = 1.50
+				consumer_goods_factor = 0.12
+				stability_factor = -0.07
+			}
+		}
+	}
+	
+	#Active - Relax Child Labour Laws
+	country = {
+		SLP_recruitdecs_childlabour_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_citizen_militia_2
+			modifier = {
+				conscription = 0.01
+				recruitable_population_factor = 0.12
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	#Active - Penal Battalions 
+	country = {
+		SLP_recruitdecs_penalbat_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_generic_prisoner
+			modifier = {
+				conscription = 0.003
+			}
+		}
+	}
+	
+	#Active - Unsuitable Now Suitable
+	country = {
+		SLP_recruitdecs_suitable_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_chi_forced_conscription
+			modifier = {
+				conscription = 0.01
+				recruitable_population_factor = 0.10
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	#Active - Recruit Foreign Visitors
+	country = {
+		SLP_recruitdecs_foreignfight_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_ast_volunteer_defence_corps
+			modifier = {
+				conscription = 0.005
+				drift_defence_factor  = -0.05
+			}
+		}
+	}
+	
+	#Active - Youth Military Service
+	country = {
+		SLP_recruitdecs_youthfighter_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_generic_reserve_divisions
+			modifier = {
+				conscription = 0.015
+				recruitable_population_factor = 0.12
+				stability_factor = -0.10
+				war_support_factor = -0.05
+			}
+		}
+	}
+	
+	#Active - Equality in the Military
+	country = {
+		SLP_recruitdecs_equality_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_generic_women_in_the_army
+			modifier = {
+				conscription = 0.02
+				recruitable_population_factor = 0.25
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+	}
+	
+	#Active - Occupied Conscription
+	country = {
+		SLP_manpowerdecs_occupied_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_generic_army_war_college
+			modifier = {
+				non_core_manpower = 0.10
+				political_power_cost = 0.15
+			}
+		}
+	}
+	
+	#Active - International Welfare State
+	country = {
+		SLP_manpowerdecs_welfarestate_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = idea_generic_local_self_management
+			modifier = {
+				weekly_manpower = 300
+				political_power_cost = 0.15
+				consumer_goods_factor = 0.05
+				monthly_population = 0.10
+			}
+		}
+	}
+	
+	#Active - Ideological Beacon
+	country = {
+		SLP_manpowerdecs_ideobeacon_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = fra_deluge
+			modifier = {
+				weekly_manpower = 250
+				political_power_cost = 0.10
+				monthly_population = 0.05
+				drift_defence_factor  = -0.10
+			}
+		}
+	}
+	
+	#Active - State Arranged Marriages
+	country = {
+		SLP_growthdecs_arrangedmarriage_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = fra_deluge
+			modifier = {
+				monthly_population = 0.5
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	#Active - Ban Contraception
+	country = {
+		SLP_growthdecs_bancontraception_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = fra_deluge
+			modifier = {
+				monthly_population = 0.5
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	#Active - Family Poverty Eradication
+	country = {
+		SLP_growthdecs_familypoverty_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = fra_deluge
+			modifier = {
+				monthly_population = 0.75
+				stability_factor = 0.03
+				consumer_goods_factor = 0.09
+			}
+		}
+	}
 	
 }

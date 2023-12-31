@@ -1,0 +1,167 @@
+﻿l_english:
+ manpower_decisions_slp:0 "§H Manpower On Tap§!"
+
+ #PopulationPlanning
+ SLP_Menu_GrowthDecs1_OpenMenu:0 "Open Population Planning Menu £BoP_right_texticon £population_texticon"
+ SLP_Menu_GrowthDecs1_CloseMenu:0 "Close Population Planning Menu £BoP_left_texticon"
+ 
+ SLP_growthdecs_childsupport_start_1:0 "Child Support Services Scheme §G+30%§! £population_texticon"
+ SLP_growthdecs_childsupport_start_1_desc:0 "Agree for the government to provide basic child support services for families. This will ease the burden of raising children for these families and provide support for families separated by war. Provides a §G+30%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_childsupport_stop_1:0 "Revoke Child Support Services Scheme"
+ SLP_growthdecs_childsupport_stop_1_desc:0 "Revoke the ongoing Child Support Services Scheme."
+ 
+ SLP_growthdecs_finasupport_start_1:0 "Financial Support for Single Parents §G+20%§! £population_texticon"
+ SLP_growthdecs_finasupport_start_1_desc:0 "Provide financial support for single parents to assist with raising their children. This will not only help reduce the stress of raising a family on their own but hopefully reduce the stigma of single parent households. Provides a §G+20%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_finasupport_stop_1:0 "Revoke Financial Support for Single Parents"
+ SLP_growthdecs_finasupport_stop_1_desc:0 "Revoke the ongoing Financial Support for Single Parents."
+ 
+ SLP_growthdecs_encourgebirth_start_1:0 "Encourage Women to have Children §G+25%§! £population_texticon"
+ SLP_growthdecs_encourgebirth_start_1_desc:0 "Using propaganda, information sessions and helping create a culture around families we can help encourage woman have to have children or grow larger families. Provides a §G+25%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_encourgebirth_stop_1:0 "Stop Encouraging Women to have Children"
+ SLP_growthdecs_encourgebirth_stop_1_desc:0 "Shut down the information sessions and active propaganda encouraging women to have children."
+ 
+ SLP_growthdecs_adopt_start_1:0 "Incentivise Adoption §G+25%§! £population_texticon"
+ SLP_growthdecs_adopt_start_1_desc:0 "Provide financial support and other incentives for families looking to adopt children into their family. Provides a §G+25%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_adopt_stop_1:0 "Revoke Adoption Incentives"
+ SLP_growthdecs_adopt_stop_1_desc:0 "Revoke the incentives in place for adoption."
+ 
+ SLP_growthdecs_familyhealth_start_1:0 "Family Health Initiative §G+40%§! £population_texticon"
+ SLP_growthdecs_familyhealth_start_1_desc:0 "Provide and streamline doctor and medical support for families, helping them better manage their overall health without burdening them with the medical costs. Provides a §G+40%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_familyhealth_stop_1:0 "Revoke Family Health Initiative"
+ SLP_growthdecs_familyhealth_stop_1_desc:0 "Revoke the support and controls in place for family health."
+ 
+ SLP_growthdecs_multipart_start_1:0 "Encourage Multiple Partners §G+25%§! £population_texticon"
+ SLP_growthdecs_multipart_start_1_desc:0 "Using propaganda and pushing for social changes, the state can encourage their population to have more than one partner with the idea of larger families and children with multiple partners. Provides a §G+25%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_multipart_stop_1:0 "Stop Encouraging Multiple Partners"
+ SLP_growthdecs_multipart_stop_1_desc:0 "Shut down the active propaganda and efforts for the population to have multiple partners."
+ 
+ SLP_growthdecs_familytax_start_1:0 "Family Tax Benefit §G+40%§! £population_texticon"
+ SLP_growthdecs_familytax_start_1_desc:0 "Provide a tax reduction or rebate for families, helping reduce the costs of raising a family and making having children more affordable. Provides a §G+40%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_familytax_stop_1:0 "Revoke Family Tax Benefit"
+ SLP_growthdecs_familytax_stop_1_desc:0 "Revoke the tax benefits in place for families."
+ 
+ SLP_growthdecs_hightax_start_1:0 "Higher Taxation with No Children §G+50%§! £population_texticon"
+ SLP_growthdecs_hightax_start_1_desc:0 "Force an increased tax rate for couples who are married or defacto but have no children with the intention of making having no children a less affordable option. Provides a §G+50%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_hightax_stop_1:0 "Revoke Higher Taxation with No Children"
+ SLP_growthdecs_hightax_stop_1_desc:0 "Revoke the tax increases in place for couples with no children."
+ 
+ SLP_growthdecs_immigdrive_start_1:0 "Immigration Drive §G+50%§! £population_texticon"
+ SLP_growthdecs_immigdrive_start_1_desc:0 "Run advertisements and provide incentives for immigration to the state. Provides a §G+50%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_immigdrive_stop_1:0 "Stop the Immigration Drive"
+ SLP_growthdecs_immigdrive_stop_1_desc:0 "Cease running advertisements and stop providing incentives for immigration to the state."
+ 
+ SLP_growthdecs_manychild_start_1:0 "Many Child Policy §G+50%§! £population_texticon"
+ SLP_growthdecs_manychild_start_1_desc:0 "Create laws that require families to have a minimum number of children, typically a higher number forcing families to be larger. Provides a §G+50%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_manychild_stop_1:0 "Revoke Many Child Policy"
+ SLP_growthdecs_manychild_stop_1_desc:0 "Revoke the laws requiring families to have a minimum number of children."
+ 
+ SLP_growthdecs_familyfirst_start_1:0 "Families First §G+100%§! £population_texticon"
+ SLP_growthdecs_familyfirst_start_1_desc:0 "Create laws and military policy that helps protect families from conscription, with the aim of keeping families, particularly new families, together and out of any war. By guaranteeing these families they maybe more willing to grow their family. Provides a §G+60%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_familyfirst_stop_1:0 "Revoke Families First"
+ SLP_growthdecs_familyfirst_stop_1_desc:0 "Revoke the laws in place that help protect families from conscription."
+ 
+ SLP_growthdecs_overshoot_start_1:0 "Overshoot Population §G+150%§! £population_texticon"
+ SLP_growthdecs_overshoot_start_1_desc:0 "Very aggressively pursue a larger population through reform, policy or laws with zero regard to the carrying capacity of the local environment, available housing or food security. Provides a §G+150%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_overshoot_stop_1:0 "Stop Overshoot Population"
+ SLP_growthdecs_overshoot_stop_1_desc:0 "Stop overshooting the population."
+ 
+ SLP_growthdecs_statearranged_start_1:0 "State Arranged Marriages §G+50%§! £population_texticon"
+ SLP_growthdecs_statearranged_start_1_desc:0 "Using the state as the third party between families, the state can incentivise and pressure the union of unmarried family members. Provides a §G+50%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_statearranged_stop_1:0 "Cease State Arranged Marriages"
+ SLP_growthdecs_statearranged_stop_1_desc:0 "Stop the state conducting arranged marriages."
+ 
+ SLP_growthdecs_bancontrac_start_1:0 "Ban Contraception §G+50%§! £population_texticon"
+ SLP_growthdecs_bancontrac_start_1_1_desc:0 "Ban the sale and prescription of all types contraception within the state. Provides a §G+50%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_bancontrac_stop_1:0 "Revoke Contraception Ban"
+ SLP_growthdecs_bancontrac_stop_1_desc:0 "Revoke the ban on contraception."
+ 
+ SLP_growthdecs_familypover_start_1:0 "Family Poverty Eradication §G+75%§! £population_texticon"
+ SLP_growthdecs_familypover_start_1_1_desc:0 "Provide additional support, such as government housing and food security, for families living below the poverty line in an effort to increase their quality of life. While in the long term, a higher quality of life will usually reduce population growth, it will still benefit the state's growth greatly in the short term. Provides a §G+75%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_familypover_stop_1:0 "Cease Family Poverty Eradication"
+ SLP_growthdecs_familypover_stop_1_desc:0 "Shutdown the additional support for families living below the poverty line."
+ 
+ 
+ #PopulationPlanningIdeas
+ SLP_growthdecs_childsupport_active_1:0 "Child Support Services Scheme"
+ SLP_growthdecs_finasupport_active_1:0 "Financial Support for Single Parents"
+ SLP_growthdecs_encourgebirth_active_1:0 "Encourage Women to have Children"
+ SLP_growthdecs_familyhealth_active_1:0 "Family Health Initiative"
+ SLP_growthdecs_familytax_active_1:0 "Family Tax Benefit"
+ SLP_growthdecs_hightaxnochild_active_1:0 "Higher Taxation with No Children" 
+ SLP_growthdecs_immigdrive_active_1:0 "Immigration Drive"
+ SLP_growthdecs_childpolicy_active_1:0 "Many Child Policy"
+ SLP_growthdecs_overshoot_active_1:0 "Overshoot Population"
+ SLP_growthdecs_mutlipart_active_1:0 "Encourage Multiple Partners"
+ SLP_growthdecs_familyfirst_active_1:0 "Families First"
+ SLP_growthdecs_arrangedmarriage_active_1:0 "State Arranged Marriages"
+ SLP_growthdecs_bancontraception_active_1:0 "Ban Contraception"
+ SLP_growthdecs_familypoverty_active_1:0 "Family Poverty Eradication"
+ 
+ #RecruitmentExpansion
+ SLP_Menu_RecruitDecs1_OpenMenu:0 "Open Recruitment Expansion Menu £BoP_right_texticon £manpower_texticon"
+ SLP_Menu_RecruitDecs1_CloseMenu:0 "Close Recruitment Expansion Menu £BoP_left_texticon"
+ 
+ SLP_recruitdecs_childlabour_start_1:0 "Relax Child Labour Laws §Y1.0%§! §G+12%§! £manpower_texticon"
+ SLP_recruitdecs_childlabour_start_1_desc:0 "Relax child labour laws in place to protect the health and well-being of children. By reducing child labour protections, positions, such as those in factories, that would usually be covered by adults can be covered by children, freeing those adults for military service. Provides a §Y1.0%§! increase to recruitable population as well as a §G+12%§! recruitable population factor."
+ SLP_recruitdecs_childlabour_stop_1:0 "Tighten Child Labour Laws"
+ SLP_recruitdecs_childlabour_stop_1_desc:0 "Revert the new child labour laws to their previous state."
+ 
+ SLP_recruitdecs_penalbat_start_1:0 "Penal Battalions §Y0.3%§! £manpower_texticon"
+ SLP_recruitdecs_penalbat_start_1_desc:0 "Give criminals and currently serving prisoners the choice of a sentence or military service. Provides a §Y0.3%§! increase to recruitable population."
+ SLP_recruitdecs_penalbat_stop_1:0 "Revoke Penal Battalions"
+ SLP_recruitdecs_penalbat_stop_1_desc:0 "Remove the right for criminal to be allowed to serve in the military."
+ 
+ SLP_recruitdecs_suitable_start_1:0 "Unsuitable Now Suitable §Y1.0%§! §G+10%§! £manpower_texticon"
+ SLP_recruitdecs_suitable_start_1_desc:0 "By adjusting the military service entry requirements to be more forgiving, we can ensure those who would usually be unsuitable to service, typically due to advanced age, can now be recruited. Provides a §Y1.0%§! increase to recruitable population as well as a §G+10%§! recruitable population factor."
+ SLP_recruitdecs_suitable_stop_1:0 "Revoke Unsuitable Now Suitable"
+ SLP_recruitdecs_suitable_stop_1_desc:0 "Readjust the military service entry requirements to no longer be forgiving and match what they were previously."
+ 
+ SLP_recruitdecs_foreignfight_start_1:0 "Recruit Foreign Visitors §Y0.5%§! £manpower_texticon"
+ SLP_recruitdecs_foreignfight_start_1_desc:0 "Provide incentives for foreign visitors, such as guaranteed citizenship or permanent residency, to entice these visitors to join the military service. Provides a §Y0.5%§! increase to recruitable population."
+ SLP_recruitdecs_foreignfight_stop_1:0 "Stop Recruiting Foreign Visitors"
+ SLP_recruitdecs_foreignfight_stop_1_desc:0 "Remove incentives for foreign visitors to join the state's military service."
+
+ SLP_recruitdecs_youthfighter_start_1:0 "Youth Military Service §Y1.5%§! §G+10%§! £manpower_texticon"
+ SLP_recruitdecs_youthfighter_start_1_desc:0 "Reduce the age restrictions for military service and establish youth military branches allowing younger populations to become recruits. Provides a §Y1.5%§! increase to recruitable population as well as a §G+10%§! recruitable population factor."
+ SLP_recruitdecs_youthfighter_stop_1:0 "Dismantle Youth Military Service"
+ SLP_recruitdecs_youthfighter_stop_1_desc:0 "Increase the age restrictions for military service to only allow adults and dismantle any youth military branches."
+ 
+ SLP_recruitdecs_equality_start_1:0 "Equality in the Military §Y2.0%§! §G+25%§! £manpower_texticon"
+ SLP_recruitdecs_equality_start_1_desc:0 "Ensure by law and social change that women have total equality within military service, affording them every opportunity that men are given and protecting such a right. This will allow women to enter the military equally and unopposed but they will also be subject to compulsory enlistment if and when it is enacted. Provides a §Y2.0%§! increase to recruitable population as well as a §G+25%§! recruitable population factor."
+ SLP_recruitdecs_equality_stop_1:0 "Remove Equality in the Military"
+ SLP_recruitdecs_equality_stop_1_desc:0 "Remove and revoke protections and laws that give women total equality concerning military service."
+ 
+ #RecruitmentIdeas
+ SLP_recruitdecs_childlabour_active_1:0 "Relax Child Labour Laws"
+ SLP_recruitdecs_penalbat_active_1:0 "Penal Battalions"
+ SLP_recruitdecs_suitable_active_1:0 "Unsuitable Now Suitable"
+ SLP_recruitdecs_foreignfight_active_1:0 "Recruit Foreign Visitors"
+ SLP_recruitdecs_youthfighter_active_1:0 "Youth Military Service"
+ SLP_recruitdecs_equality_active_1:0 "Equality in the Military"
+ 
+ #ManpowerGrowth
+ SLP_Menu_ManpowerDecs1_OpenMenu:0 "Open Manpower Growth Menu £BoP_right_texticon £SOV_propaganda_text_icon"
+ SLP_Menu_ManpowerDecs1_CloseMenu:0 "Close Manpower Growth Menu £BoP_left_texticon"
+ 
+ SLP_manpowerdecs_occupied_start_1:0 "Occupied Conscription §G+10%§! £puppet_texticon £manpower_texticon"
+ SLP_manpowerdecs_occupied_start_1_desc:0 "Force through legalisation and political pressure that occupied territories must provide more manpower for use in the defence of state. Provides a §G10%§! access increase to non-core manpower."
+ SLP_manpowerdecs_occupied_stop_1:0 "Remove Occupied Conscription"
+ SLP_manpowerdecs_occupied_stop_1_desc:0 "Revoke any legalisation and reduce political pressure from occupied territories regarding requiring they provide more manpower."
+ 
+ SLP_manpowerdecs_welfare_start_1:0 "International Welfare State §G+300/Week§! £manpower_texticon  §G+10%§! £population_texticon" 
+ SLP_manpowerdecs_welfare_start_1_desc:0 "Provide welfare support for all, citizen of the state or not. By providing such services, people will be drawn to the state, increasing our population and our manpower at an additional industrial cost. Provides §G300§! weekly manpower and §G+10%§! increase to monthly population growth £population_texticon ."
+ SLP_manpowerdecs_welfare_stop_1:0 "Revoke International Welfare State Support"
+ SLP_manpowerdecs_welfare_stop_1_desc:0 "Revoke and remove non-citizen welfare services."
+ 
+ SLP_manpowerdecs_ideobeacon_start_1:0 "Ideological Beacon §G+250/Week§! £manpower_texticon  §G+5%§! £population_texticon" 
+ SLP_manpowerdecs_ideobeacon_start_1_desc:0 "Establish a global beacon of ideology. Providing a home and safety for like-minded individuals from other countries. Provides §G250§! weekly manpower and §G+5%§! increase to monthly population growth £population_texticon ."
+ SLP_manpowerdecs_ideobeacon_stop_1:0 "Suppress Ideological Beacon"
+ SLP_manpowerdecs_ideobeacon_stop_1_desc:0 "Clamp down on the ideological spread of our state outside of our borders, negating the effects we experienced as an ideological beacon."
+ 
+ 
+ #ManpowerIdeas
+ SLP_manpowerdecs_occupied_active_1:0 "Occupied Conscription"
+ SLP_manpowerdecs_welfarestate_active_1:0 "International Welfare State"
+ SLP_manpowerdecs_ideobeacon_active_1:0 "Ideological Beacon"
+ 
+################################################################################################################################################################################################
