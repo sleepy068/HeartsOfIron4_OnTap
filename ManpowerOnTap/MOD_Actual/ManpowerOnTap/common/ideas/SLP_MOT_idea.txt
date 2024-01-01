@@ -361,7 +361,7 @@ ideas = {
 			available = {
 			}
 			removal_cost = -1
-			picture = fra_deluge
+			picture = generic_spy_coup
 			modifier = {
 				monthly_population = 0.5
 				stability_factor = -0.05
@@ -377,7 +377,7 @@ ideas = {
 			available = {
 			}
 			removal_cost = -1
-			picture = fra_deluge
+			picture = idea_generic_closed_economy
 			modifier = {
 				monthly_population = 0.5
 				stability_factor = -0.05
@@ -393,7 +393,7 @@ ideas = {
 			available = {
 			}
 			removal_cost = -1
-			picture = fra_deluge
+			picture = generic_production_bonus
 			modifier = {
 				monthly_population = 0.75
 				stability_factor = 0.03

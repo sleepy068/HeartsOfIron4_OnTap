@@ -40,7 +40,7 @@ manpower_decisions_slp = {
 		#Financial Support for Single Parents
 		#Start
 		SLP_growthdecs_finasupport_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -58,7 +58,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 40
+			cost = 20
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_finasupport_active_1
@@ -67,7 +67,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_finasupport_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -94,7 +94,7 @@ manpower_decisions_slp = {
 		#Encourage Women to have Children
 		#Start
 		SLP_growthdecs_encourgebirth_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -121,7 +121,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_encourgebirth_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -148,7 +148,7 @@ manpower_decisions_slp = {
 		#Incentivise Adoption 
 		#Start
 		SLP_growthdecs_adopt_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -166,7 +166,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 30
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_adopt_active_1
@@ -175,7 +175,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_adopt_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -202,7 +202,7 @@ manpower_decisions_slp = {
 		#Encourage Mutli Partners
 		#Start
 		SLP_growthdecs_multipart_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -220,7 +220,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 75
+			cost = 30
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_mutlipart_active_1
@@ -229,7 +229,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_multipart_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -256,7 +256,7 @@ manpower_decisions_slp = {
 		#Child Support Services
 		#Start
 		SLP_growthdecs_childsupport_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -274,7 +274,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 40
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_childsupport_active_1
@@ -283,7 +283,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_childsupport_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -310,7 +310,7 @@ manpower_decisions_slp = {
 		#Family Health Initiative
 		#Start
 		SLP_growthdecs_familyhealth_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -328,7 +328,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 45
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familyhealth_active_1
@@ -337,7 +337,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_familyhealth_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -364,7 +364,7 @@ manpower_decisions_slp = {
 		#Family Tax Benefit
 		#Start
 		SLP_growthdecs_familytax_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -382,7 +382,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 30
+			cost = 45
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familytax_active_1
@@ -391,7 +391,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_familytax_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -418,7 +418,7 @@ manpower_decisions_slp = {
 		#Higher Taxation with No Children 
 		#Start
 		SLP_growthdecs_hightax_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -436,7 +436,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 30
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_hightaxnochild_active_1
@@ -445,7 +445,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_hightax_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -472,7 +472,7 @@ manpower_decisions_slp = {
 		#Immigration Drive
 		#Start
 		SLP_growthdecs_immigdrive_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -499,7 +499,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_immigdrive_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -526,7 +526,7 @@ manpower_decisions_slp = {
 		#Many Child Policy
 		#Start
 		SLP_growthdecs_manychild_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -553,7 +553,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_manychild_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -580,7 +580,7 @@ manpower_decisions_slp = {
 		#State Arranged Marriages
 		#Start
 		SLP_growthdecs_statearranged_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -598,7 +598,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_arrangedmarriage_active_1
@@ -607,7 +607,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_statearranged_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -634,7 +634,7 @@ manpower_decisions_slp = {
 		#Ban Contraception
 		#Start
 		SLP_growthdecs_bancontrac_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -652,7 +652,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_bancontraception_active_1
@@ -661,7 +661,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_bancontrac_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -688,7 +688,7 @@ manpower_decisions_slp = {
 		#Family Poverty Eradication
 		#Start
 		SLP_growthdecs_familypover_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -706,7 +706,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 60
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familypoverty_active_1
@@ -715,7 +715,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_familypover_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -742,7 +742,7 @@ manpower_decisions_slp = {
 		#Families First
 		#Start
 		SLP_growthdecs_familyfirst_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -760,7 +760,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 60
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familyfirst_active_1
@@ -769,7 +769,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_familyfirst_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -796,7 +796,7 @@ manpower_decisions_slp = {
 		#Overshoot Population
 		#Start
 		SLP_growthdecs_overshoot_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_form_nation
 
 			available = {
 			}
@@ -814,7 +814,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 75
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_overshoot_active_1
@@ -823,7 +823,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_growthdecs_overshoot_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -886,7 +886,7 @@ manpower_decisions_slp = {
 		#Unsuitable Now Suitable 
 		#Start
 		SLP_recruitdecs_suitable_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_nationalism
 
 			available = {
 			}
@@ -904,7 +904,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 120
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_suitable_active_1
@@ -913,7 +913,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_recruitdecs_suitable_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -940,7 +940,7 @@ manpower_decisions_slp = {
 		#Penal Battalions 
 		#Start
 		SLP_recruitdecs_penalbat_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_nationalism
 
 			available = {
 			}
@@ -958,7 +958,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_penalbat_active_1
@@ -967,7 +967,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_recruitdecs_penalbat_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -994,7 +994,7 @@ manpower_decisions_slp = {
 		#Recruit Foreign Visitors 
 		#Start
 		SLP_recruitdecs_foreignfight_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_nationalism
 
 			available = {
 			}
@@ -1012,7 +1012,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_foreignfight_active_1
@@ -1021,7 +1021,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_recruitdecs_foreignfight_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -1048,7 +1048,7 @@ manpower_decisions_slp = {
 		#Relax Child Labour Laws
 		#Start
 		SLP_recruitdecs_childlabour_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_nationalism
 
 			available = {
 			}
@@ -1066,7 +1066,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 150
+			cost = 100
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_childlabour_active_1
@@ -1075,7 +1075,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_recruitdecs_childlabour_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -1102,7 +1102,7 @@ manpower_decisions_slp = {
 		#Youth Military Service
 		#Start
 		SLP_recruitdecs_youthfighter_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_nationalism
 
 			available = {
 			}
@@ -1120,7 +1120,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 200
+			cost = 100
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_youthfighter_active_1
@@ -1129,7 +1129,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_recruitdecs_youthfighter_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -1156,7 +1156,7 @@ manpower_decisions_slp = {
 		#Equality in the Military
 		#Start
 		SLP_recruitdecs_equality_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_nationalism
 
 			available = {
 			}
@@ -1183,7 +1183,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_recruitdecs_equality_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -1246,7 +1246,7 @@ manpower_decisions_slp = {
 		#Occupied Conscription
 		#Start
 		SLP_manpowerdecs_occupied_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_military
 
 			available = {
 			}
@@ -1273,7 +1273,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_manpowerdecs_occupied_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -1300,7 +1300,7 @@ manpower_decisions_slp = {
 		#International Welfare State
 		#Start
 		SLP_manpowerdecs_welfare_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_military
 
 			available = {
 			}
@@ -1327,7 +1327,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_manpowerdecs_welfare_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}
@@ -1354,7 +1354,7 @@ manpower_decisions_slp = {
 		#Ideological Beacon
 		#Start
 		SLP_manpowerdecs_ideobeacon_start_1 = {
-			icon = decision_generic_decision
+			icon = generic_military
 
 			available = {
 			}
@@ -1381,7 +1381,7 @@ manpower_decisions_slp = {
 		
 		#Stop
 		SLP_manpowerdecs_ideobeacon_stop_1 = {
-			icon = decision_generic_decision
+			icon = generic_decision
 			
 			available = {
 			}

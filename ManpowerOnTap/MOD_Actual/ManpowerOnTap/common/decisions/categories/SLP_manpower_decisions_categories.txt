@@ -1,10 +1,10 @@
 manpower_decisions_slp = {
-	icon = generic_political_actions
+	icon = army_reform
 	allowed = {
 		always = yes
 	}
 	visible = {
 		always = yes
 	}
-	priority = 104
+	priority = 92
 }

@@ -1,0 +1,765 @@
+resource_decisions_slp = {
+
+        ################################## Resource Decisions ##################################
+		################# Resource Discovery #################
+		######### Resource Discovery Menu - Menu #########
+		# Open Menu #
+		SLP_Menu_ResourceDisc_OpenMenu = {
+			icon = eng_trade_unions_support
+			visible = {
+				NOT = {has_country_flag = SLP_Menu_ResourceDisc_OpenMenu}
+			}
+			available = {
+			}
+			complete_effect = {
+				set_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		# Close Menu #
+		SLP_Menu_ResourceDisc_CloseMenu = {
+			icon = generic_break_treaty
+			visible = {
+				has_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+			available = {
+			}
+			complete_effect = {
+				clr_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		######### Steel Discovery - 4 Steel Units #########
+		SLP_resource_steel_discovery_1 = {
+			icon = generic_merge_plant_materiel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 0
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 1
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			days_remove = 90
+			days_re_enable = 0
+
+			cost = 20
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = steel amount = 4}
+					}
+			}
+		}
+		
+		######### Chromium Discovery - 2 Chromium Units #########
+		SLP_resource_chromium_discovery_1 = {
+			icon = generic_merge_plant_materiel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 0
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 1
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			days_remove = 90
+			days_re_enable = 0
+
+			cost = 20
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = chromium amount = 2}
+					}
+			}
+		}
+		
+		######### Tungsten Discovery - 2 Tungsten Units #########
+		SLP_resource_tungsten_discovery_1 = {
+			icon = generic_merge_plant_materiel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 0
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 1
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			days_remove = 90
+			days_re_enable = 0
+
+			cost = 20
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = tungsten amount = 2}
+					}
+			}
+		}
+		
+		######### Oil Discovery - 1 Oil Unit #########
+		SLP_resource_oil_discovery_1 = {
+			icon = generic_merge_plant_materiel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 0
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 1
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			days_remove = 90
+			days_re_enable = 0
+
+			cost = 20
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = oil amount = 1}
+					}
+			}
+		}
+		
+		######### Rubber Discovery - 2 Rubber Unit #########
+		SLP_resource_rubber_discovery_1 = {
+			icon = generic_merge_plant_materiel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 0
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 1
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			days_remove = 90
+			days_re_enable = 0
+
+			cost = 20
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = rubber amount = 2}
+					}
+			}
+		}
+		
+		######### Aluminium Discovery - 2 Aluminium Unit #########
+		SLP_resource_aluminium_discovery_1 = {
+			icon = generic_merge_plant_materiel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 0
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceDisc_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 1
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			days_remove = 90
+			days_re_enable = 0
+
+			cost = 20
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = aluminium amount = 2}
+					}
+			}
+		}
+		
+		################# Resource Expansion #################
+		######### Resource Expansion Menu - Menu #########
+		# Open Menu #
+		SLP_Menu_ResourceExpan_OpenMenu = {
+			icon = eng_trade_unions_support
+			visible = {
+				NOT = {has_country_flag = SLP_Menu_ResourceExpan_OpenMenu}
+			}
+			available = {
+			}
+			complete_effect = {
+				set_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		# Close Menu #
+		SLP_Menu_ResourceExpan_CloseMenu = {
+			icon = generic_break_treaty
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+			available = {
+			}
+			complete_effect = {
+				clr_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		######### Steel Expansion - Secondary - 8 Steel Units #########
+		SLP_resource_steel_expansion_1 = {
+			icon = steel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 2
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = steel amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 45
+			days_re_enable = 0
+
+			cost = 40
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = steel amount = 8}
+					}
+			}
+		}
+		
+		######### Steel Expansion - Mass - 20 Steel Units #########
+		SLP_resource_steel_expansion_2 = {
+			icon = steel
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 4
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 5
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = steel amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 60
+			days_re_enable = 0
+
+			cost = 80
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = steel amount = 20}
+					}
+			}
+		}
+		
+		######### Chromium Expansion - Secondary - 4 Chromium Units #########
+		SLP_resource_chromium_expansion_1 = {
+			icon = chromium
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 2
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = chromium amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 45
+			days_re_enable = 0
+
+			cost = 40
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = chromium amount = 4}
+					}
+			}
+		}
+		
+		######### Chromium Expansion - Mass - 10 Chromium Units #########
+		SLP_resource_chromium_expansion_2 = {
+			icon = chromium
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 4
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 5
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = chromium amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 60
+			days_re_enable = 0
+
+			cost = 80
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = chromium amount = 10}
+					}
+			}
+		}
+		
+		######### Tungsten Expansion - Secondary - 4 Tungsten Units #########
+		SLP_resource_tungsten_expansion_1 = {
+			icon = tungsten
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 2
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = tungsten amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 45
+			days_re_enable = 0
+
+			cost = 40
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = tungsten amount = 4}
+					}
+			}
+		}
+		
+		######### Tungsten Expansion - Mass - 10 Tungsten Units #########
+		SLP_resource_tungsten_expansion_2 = {
+			icon = tungsten
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 4
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 5
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = tungsten amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 60
+			days_re_enable = 0
+
+			cost = 80
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = tungsten amount = 10}
+					}
+			}
+		}
+		
+		######### Oil Expansion - Secondary - 2 Oil Units #########
+		SLP_resource_oil_expansion_1 = {
+			icon = oil
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 2
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = oil amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 45
+			days_re_enable = 0
+
+			cost = 40
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = oil amount = 2}
+					}
+			}
+		}
+		
+		######### Oil Expansion - Mass - 5 Oil Units #########
+		SLP_resource_oil_expansion_2 = {
+			icon = oil
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 4
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 5
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = oil amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 60
+			days_re_enable = 0
+
+			cost = 80
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = oil amount = 5}
+					}
+			}
+		}
+		
+		######### Rubber Expansion - Secondary - 4 Rubber Units #########
+		SLP_resource_rubber_expansion_1 = {
+			icon = rubber
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 2
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = rubber amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 45
+			days_re_enable = 0
+
+			cost = 40
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = rubber amount = 4}
+					}
+			}
+		}
+		
+		######### Rubber Expansion - Mass - 10 Rubber Units #########
+		SLP_resource_rubber_expansion_2 = {
+			icon = rubber
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 4
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 5
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = rubber amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 60
+			days_re_enable = 0
+
+			cost = 80
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = rubber amount = 10}
+					}
+			}
+		}
+		
+		######### Aluminium Expansion - Secondary - 4 Aluminium Units #########
+		SLP_resource_aluminium_expansion_1 = {
+			icon = aluminium
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 1
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 2
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = aluminium amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 45
+			days_re_enable = 0
+
+			cost = 40
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = aluminium amount = 4}
+					}
+			}
+		}
+		
+		######### Aluminium Expansion - Mass - 10 Aluminium Units #########
+		SLP_resource_aluminium_expansion_2 = {
+			icon = aluminium
+
+			available = {
+				num_of_civilian_factories_available_for_projects > 4
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_ResourceExpan_OpenMenu
+			}
+
+			modifier = {
+				civilian_factory_use = 5
+			}
+			
+			target_root_trigger = {
+			}
+			
+			target_trigger = {
+				FROM = {
+					is_owned_and_controlled_by = ROOT
+					has_resources_amount = { resource = aluminium amount > 1 }
+				}
+			}
+			
+			fire_only_once = no
+			fixed_random_seed = no
+			on_map_mode = decision_view_only
+			state_target = yes
+			days_remove = 60
+			days_re_enable = 0
+
+			cost = 80
+
+			remove_effect = {
+				random_owned_controlled_state = {
+					add_resource={type = aluminium amount = 10}
+					}
+			}
+		}
+}
