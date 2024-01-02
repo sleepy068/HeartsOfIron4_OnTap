@@ -55,7 +55,7 @@
  SLP_refinery_factory_buy_2_desc:0 "Purchase 3 Refineries permanently. The refineries will be built and operated outside of our borders."
  
  #RentFactories
- SLP_Menu_RentRefFact1_OpenMenu:0 "Open Lease Agreement Menu £BoP_right_texticon £industry"
+ SLP_Menu_RentRefFact1_OpenMenu:0 "Open Lease Agreement Menu £BoP_right_texticon"
  SLP_Menu_RentRefFact1_CloseMenu:0 "Close Lease Agreement Menu £BoP_left_texticon"
  
  SLP_civilian_factory_rent_start_1:0 "Sign Inequitable Civilian Factory Lease §Y3§!x£civ_factory"

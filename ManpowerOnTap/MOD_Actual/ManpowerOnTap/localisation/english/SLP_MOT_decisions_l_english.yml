@@ -158,10 +158,18 @@
  SLP_manpowerdecs_ideobeacon_stop_1:0 "Suppress Ideological Beacon"
  SLP_manpowerdecs_ideobeacon_stop_1_desc:0 "Clamp down on the ideological spread of our state outside of our borders, negating the effects we experienced as an ideological beacon."
  
- 
  #ManpowerIdeas
  SLP_manpowerdecs_occupied_active_1:0 "Occupied Conscription"
  SLP_manpowerdecs_welfarestate_active_1:0 "International Welfare State"
  SLP_manpowerdecs_ideobeacon_active_1:0 "Ideological Beacon"
+ 
+ #Technologies
+ SLP_Menu_Science1_OpenMenu:0 "Open Research Menu £BoP_right_texticon £research_icon"
+ SLP_Menu_Science1_CloseMenu:0 "Close Research Menu £BoP_left_texticon"
+ 
+ SLP_GrowthDecs1_tech_1:0 "Tech: Clean Towels and Sterile Equipment  §G+100%§! £population_texticon" 
+ SLP_GrowthDecs1_tech_1_desc:0 "Text"
+ 
+ SLP_growthtech1_active_1:0 "Tier 1 Population Bonus"
  
 ################################################################################################################################################################################################

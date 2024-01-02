@@ -2,7 +2,7 @@
  resource_decisions_slp:0 "§H Resources On Tap§!"
  
  #Resource Discovery
- SLP_Menu_ResourceDisc_OpenMenu:0 "Open Resource Discovery Menu £BoP_right_texticon £industry"
+ SLP_Menu_ResourceDisc_OpenMenu:0 "Open Resource Discovery Menu £BoP_right_texticon"
  SLP_Menu_ResourceDisc_CloseMenu:0 "Close Resource Discovery Menu £BoP_left_texticon"
  
  SLP_resource_steel_discovery_1:0 "Steel Discovery §W4x Steel§!"
@@ -24,7 +24,7 @@
  SLP_resource_aluminium_discovery_1_desc:0 "Fund bauxite prospecting missions and the building of industrial mines, small scale aluminium processing and storage facilities and transport links to create a foundation for future aluminium production in an owned state. Provides §W2x Aluminium§! to a random owned state."
 
  #Resource Expansion
- SLP_Menu_ResourceExpan_OpenMenu:0 "Open Resource Expansion Menu £BoP_right_texticon £resources_to_market"
+ SLP_Menu_ResourceExpan_OpenMenu:0 "Open Resource Expansion Menu £BoP_right_texticon"
  SLP_Menu_ResourceExpan_CloseMenu:0 "Close Resource Expansion Menu £BoP_left_texticon"
  
  SLP_resource_steel_expansion_1:0 "Secondary Steel Expansion §W8x Steel§!"

@@ -1405,4 +1405,69 @@ manpower_decisions_slp = {
 			}
 		}
 		
+		################################## Tech Tree ##################################
+		######### Scientific Focus - Menu #########
+		# Open Menu #
+		SLP_Menu_Science1_OpenMenu = {
+			icon = eng_trade_unions_support
+			visible = {
+				NOT = {has_country_flag = SLP_Menu_Science1_OpenMenu}
+			}
+			available = {
+			}
+			complete_effect = {
+				set_country_flag = SLP_Menu_Science1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+
+		# Close Menu #
+		SLP_Menu_Science1_CloseMenu = {
+			icon = generic_break_treaty
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu 
+			}
+			available = {
+			}
+			complete_effect = {
+				clr_country_flag = SLP_Menu_Science1_OpenMenu 
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		######### Science Decisions #########
+		#Clean Towels and Sterile Equipment
+		SLP_GrowthDecs1_tech_1 = {
+			icon = generic_research
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_1}
+			}
+
+			modifier = {
+				research_speed_factor = -0.10
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				add_ideas = SLP_growthtech1_active_1
+				set_country_flag = SLP_GrowthDecs1_tech_1 
+			}
+		}
+		
 }

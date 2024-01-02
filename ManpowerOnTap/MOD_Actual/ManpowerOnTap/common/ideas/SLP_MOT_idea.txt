@@ -402,4 +402,19 @@ ideas = {
 		}
 	}
 	
+	#Active - Growth Tech 1
+	country = {
+		SLP_growthtech1_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 1.00
+			}
+		}
+	}
+	
 }
