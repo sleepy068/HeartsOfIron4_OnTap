@@ -96,6 +96,7 @@
  SLP_growthdecs_arrangedmarriage_active_1:0 "State Arranged Marriages"
  SLP_growthdecs_bancontraception_active_1:0 "Ban Contraception"
  SLP_growthdecs_familypoverty_active_1:0 "Family Poverty Eradication"
+ SLP_growthdecs_adopt_start_1:0 "Incentivise Adoption "
  
  #RecruitmentExpansion
  SLP_Menu_RecruitDecs1_OpenMenu:0 "Open Recruitment Expansion Menu £BoP_right_texticon £manpower_texticon"
@@ -148,8 +149,8 @@
  SLP_manpowerdecs_occupied_stop_1:0 "Remove Occupied Conscription"
  SLP_manpowerdecs_occupied_stop_1_desc:0 "Revoke any legalisation and reduce political pressure from occupied territories regarding requiring they provide more manpower."
  
- SLP_manpowerdecs_welfare_start_1:0 "International Welfare State §G+300/Week§! £manpower_texticon  §G+10%§! £population_texticon" 
- SLP_manpowerdecs_welfare_start_1_desc:0 "Provide welfare support for all, citizen of the state or not. By providing such services, people will be drawn to the state, increasing our population and our manpower at an additional industrial cost. Provides §G300§! weekly manpower and §G+10%§! increase to monthly population growth £population_texticon ."
+ SLP_manpowerdecs_welfare_start_1:0 "International Welfare State §G+400/Week§! £manpower_texticon  §G+10%§! £population_texticon" 
+ SLP_manpowerdecs_welfare_start_1_desc:0 "Provide welfare support for all, citizen of the state or not. By providing such services, people will be drawn to the state, increasing our population and our manpower at an additional industrial cost. Provides §G400§! weekly manpower and §G+10%§! increase to monthly population growth £population_texticon ."
  SLP_manpowerdecs_welfare_stop_1:0 "Revoke International Welfare State Support"
  SLP_manpowerdecs_welfare_stop_1_desc:0 "Revoke and remove non-citizen welfare services."
  
@@ -158,18 +159,77 @@
  SLP_manpowerdecs_ideobeacon_stop_1:0 "Suppress Ideological Beacon"
  SLP_manpowerdecs_ideobeacon_stop_1_desc:0 "Clamp down on the ideological spread of our state outside of our borders, negating the effects we experienced as an ideological beacon."
  
+ SLP_manpowerdecs_basicincome_start_1:0 "Universal Basic Income §G+400/Week§! £manpower_texticon  §G+10%§! £population_texticon" 
+ SLP_manpowerdecs_basicincome_start_1_desc:0 "Setup a universal basic income for all citizens of the state. Providing a basic income for everyone allows people to always have a secure living but also spend their time as they see fit, working more if they choose to. Provides §G400§! weekly manpower and §G+10%§! increase to monthly population growth £population_texticon ."
+ SLP_manpowerdecs_basicincome_stop_1:0 "Revoke Universal Basic Income"
+ SLP_manpowerdecs_basicincome_stop_1_desc:0 "Revoke the universal basic income provided to citizens by the state."
+ 
  #ManpowerIdeas
  SLP_manpowerdecs_occupied_active_1:0 "Occupied Conscription"
  SLP_manpowerdecs_welfarestate_active_1:0 "International Welfare State"
  SLP_manpowerdecs_ideobeacon_active_1:0 "Ideological Beacon"
+ SLP_manpowerdecs_basicincome_active_1:0 "Universal Basic Income"
  
  #Technologies
  SLP_Menu_Science1_OpenMenu:0 "Open Research Menu £BoP_right_texticon £research_icon"
  SLP_Menu_Science1_CloseMenu:0 "Close Research Menu £BoP_left_texticon"
  
- SLP_GrowthDecs1_tech_1:0 "Tech: Clean Towels and Sterile Equipment  §G+100%§! £population_texticon" 
- SLP_GrowthDecs1_tech_1_desc:0 "Text"
+ SLP_GrowthDecs1_tech_1:0 "1910: Clean Towels and Sterile Equipment" 
+ SLP_GrowthDecs1_tech_1_desc:0 "Tech Level 1: §G+100%§! £population_texticon\n\nBy ensuring that hospitals and clinic all have and maintain a healthy supply of clean towels and sterile equipment we can greatly reduce the chance of death by infection.\n\nTotal Population Bonus §G+100%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_2:0 "1930: Vitamin K Distribution" 
+ SLP_GrowthDecs1_tech_2_desc:0 "Tech Level 2: §G+20%§! £population_texticon\n\nEstalish new rules within hospitals and home births to ensure newborns receive Vitamin K supplements within 1 day of birth. Vitamin K, something newborn babies tend to be very low on, is needed to assist the body clotting blood.\n\nTotal Population Bonus §G+120%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_3:0 "1935: Penicillin Manufacturing" 
+ SLP_GrowthDecs1_tech_3_desc:0 "Tech Level 3: §G+50%§! £population_texticon\n\nExpand manufacturing of Penicillin, an effective and important antibiotic.\n\nTotal Population Bonus §G+170%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_4:0 "1936: National Vaccine Stockpile" 
+ SLP_GrowthDecs1_tech_4_desc:0 "Tech Level 4: §G+50%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+220%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_5:0 "1937: Professional Midwifery" 
+ SLP_GrowthDecs1_tech_5_desc:0 "Tech Level 5: §G+25%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+245%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_6:0 "1938: Subsidised Medical Care" 
+ SLP_GrowthDecs1_tech_6_desc:0 "Tech Level 6: §G+25%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+270%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_7:0 "1939: National Milk Scheme" 
+ SLP_GrowthDecs1_tech_7_desc:0 "Tech Level 7: §G+30%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+300%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_8:0 "1940: Vitamin Welfare Scheme" 
+ SLP_GrowthDecs1_tech_8_desc:0 "Tech Level 8: §G+30%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+330%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_9:0 "1941: Obstetric Care" 
+ SLP_GrowthDecs1_tech_9_desc:0 "Tech Level 9: §G+50%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+380%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_10:0 "1942: Extra Hospital Maternity Beds" 
+ SLP_GrowthDecs1_tech_10_desc:0 "Tech Level 10: §G+20%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+400%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_11:0 "1943: Deep Tank Fermentation" 
+ SLP_GrowthDecs1_tech_11_desc:0 "Tech Level 10: §G+30%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+430%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_12:0 "1944: Flying Doctor Service" 
+ SLP_GrowthDecs1_tech_12_desc:0 "Tech Level 10: §G+25%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+455%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_13:0 "1945: Hospitalised Birth" 
+ SLP_GrowthDecs1_tech_13_desc:0 "Tech Level 10: §G+35%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+490%§! £population_texticon"
+ 
+ SLP_GrowthDecs1_tech_14:0 "1955: Polio Vaccine Introduction" 
+ SLP_GrowthDecs1_tech_14_desc:0 "Tech Level 10: §G+50%§! £population_texticon\n\n---\n\nTotal Population Bonus §G+540%§! £population_texticon"
+ 
  
  SLP_growthtech1_active_1:0 "Tier 1 Population Bonus"
+ SLP_growthtech2_active_1:0 "Tier 2 Population Bonus"
+ SLP_growthtech3_active_1:0 "Tier 3 Population Bonus"
+ SLP_growthtech4_active_1:0 "Tier 4 Population Bonus"
+ SLP_growthtech5_active_1:0 "Tier 5 Population Bonus"
+ SLP_growthtech6_active_1:0 "Tier 6 Population Bonus"
+ SLP_growthtech7_active_1:0 "Tier 7 Population Bonus"
+ SLP_growthtech8_active_1:0 "Tier 8 Population Bonus"
+ SLP_growthtech9_active_1:0 "Tier 9 Population Bonus"
+ SLP_growthtech10_active_1:0 "Tier 10 Population Bonus"
+ SLP_growthtech11_active_1:0 "Tier 11 Population Bonus"
+ SLP_growthtech12_active_1:0 "Tier 12 Population Bonus"
+ SLP_growthtech13_active_1:0 "Tier 13 Population Bonus"
+ SLP_growthtech14_active_1:0 "Tier 14 Population Bonus"
  
 ################################################################################################################################################################################################

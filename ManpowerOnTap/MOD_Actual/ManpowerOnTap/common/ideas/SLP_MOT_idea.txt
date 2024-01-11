@@ -158,7 +158,7 @@ ideas = {
 			modifier = {
 				monthly_population = 1.00
 				conscription = -0.010
-				recruitable_population_factor = -0.10
+				conscription_factor = -0.10
 			}
 		}
 	}
@@ -207,7 +207,7 @@ ideas = {
 			picture = idea_citizen_militia_2
 			modifier = {
 				conscription = 0.01
-				recruitable_population_factor = 0.12
+				conscription_factor = 0.12
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
@@ -242,7 +242,7 @@ ideas = {
 			picture = idea_chi_forced_conscription
 			modifier = {
 				conscription = 0.01
-				recruitable_population_factor = 0.10
+				conscription_factor = 0.10
 				stability_factor = -0.05
 			}
 		}
@@ -275,7 +275,7 @@ ideas = {
 			picture = idea_generic_reserve_divisions
 			modifier = {
 				conscription = 0.015
-				recruitable_population_factor = 0.12
+				conscription_factor = 0.12
 				stability_factor = -0.10
 				war_support_factor = -0.05
 			}
@@ -293,7 +293,7 @@ ideas = {
 			picture = idea_generic_women_in_the_army
 			modifier = {
 				conscription = 0.02
-				recruitable_population_factor = 0.25
+				conscription_factor = 0.25
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
@@ -327,7 +327,7 @@ ideas = {
 			removal_cost = -1
 			picture = idea_generic_local_self_management
 			modifier = {
-				weekly_manpower = 300
+				weekly_manpower = 400
 				political_power_cost = 0.15
 				consumer_goods_factor = 0.05
 				monthly_population = 0.10
@@ -402,17 +402,20 @@ ideas = {
 		}
 	}
 	
-	#Active - Growth Tech 1
+	#Active - Universal Basic Income
 	country = {
-		SLP_growthtech1_active_1 = {
+		SLP_manpowerdecs_basicincome_active_1 = {
 			allowed = {
 			}
 			available = {
 			}
 			removal_cost = -1
-			picture = generic_production_bonus
+			picture = idea_generic_local_self_management
 			modifier = {
-				monthly_population = 1.00
+				weekly_manpower = 400
+				political_power_cost = 0.10
+				consumer_goods_factor = 0.10
+				monthly_population = 0.10
 			}
 		}
 	}

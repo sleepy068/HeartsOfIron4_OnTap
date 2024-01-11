@@ -1403,71 +1403,59 @@ manpower_decisions_slp = {
 			complete_effect = {
 				remove_ideas = SLP_manpowerdecs_ideobeacon_active_1
 			}
-		}
+		}	
 		
-		################################## Tech Tree ##################################
-		######### Scientific Focus - Menu #########
-		# Open Menu #
-		SLP_Menu_Science1_OpenMenu = {
-			icon = eng_trade_unions_support
-			visible = {
-				NOT = {has_country_flag = SLP_Menu_Science1_OpenMenu}
-			}
+		#Universal Basic Income
+		#Start
+		SLP_manpowerdecs_basicincome_start_1 = {
+			icon = generic_military
+
 			available = {
 			}
-			complete_effect = {
-				set_country_flag = SLP_Menu_Science1_OpenMenu
+
+			visible = {
+				has_country_flag = SLP_Menu_ManpowerDecs1_OpenMenu
+				NOT = {has_idea = SLP_manpowerdecs_basicincome_active_1}
 			}
-			cost = 0
-			days_remove = 0
-			days_re_enable = 0
+
 			fire_only_once = no
-		}
-
-		# Close Menu #
-		SLP_Menu_Science1_CloseMenu = {
-			icon = generic_break_treaty
-			visible = {
-				has_country_flag = SLP_Menu_Science1_OpenMenu 
-			}
-			available = {
-			}
-			complete_effect = {
-				clr_country_flag = SLP_Menu_Science1_OpenMenu 
-			}
-			cost = 0
-			days_remove = 0
-			days_re_enable = 0
-			fire_only_once = no
-		}
-		
-		######### Science Decisions #########
-		#Clean Towels and Sterile Equipment
-		SLP_GrowthDecs1_tech_1 = {
-			icon = generic_research
-
-			available = {
-			}
-
-			visible = {
-				has_country_flag = SLP_Menu_Science1_OpenMenu
-				NOT = {has_country_flag = SLP_GrowthDecs1_tech_1}
-			}
 
 			modifier = {
-				research_speed_factor = -0.10
 			}
-			
-			fire_only_once = no
-			days_remove = 90
-			days_re_enable = 100
 
-			cost = 0
+			days_remove = 0
+			days_re_enable = 0
 
-			remove_effect = {
-				add_ideas = SLP_growthtech1_active_1
-				set_country_flag = SLP_GrowthDecs1_tech_1 
+			cost = 200
+
+			complete_effect = {
+				add_ideas = SLP_manpowerdecs_basicincome_active_1
 			}
 		}
 		
+		#Stop
+		SLP_manpowerdecs_basicincome_stop_1 = {
+			icon = generic_decision
+			
+			available = {
+			}
+
+			visible = {
+				has_idea = SLP_manpowerdecs_basicincome_active_1
+			}
+
+			fire_only_once = no
+
+			modifier = {
+			}
+
+			days_remove = 0
+			days_re_enable = 0
+
+			cost = 0
+
+			complete_effect = {
+				remove_ideas = SLP_manpowerdecs_basicincome_active_1
+			}
+		}
 }

@@ -1,0 +1,497 @@
+manpower_decisions_slp = {
+
+		################################## Tech Tree ##################################
+		######### Scientific Focus - Menu #########
+		# Open Menu #
+		SLP_Menu_Science1_OpenMenu = {
+			icon = eng_trade_unions_support
+			visible = {
+				NOT = {has_country_flag = SLP_Menu_Science1_OpenMenu}
+			}
+			available = {
+			}
+			complete_effect = {
+				set_country_flag = SLP_Menu_Science1_OpenMenu
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+
+		# Close Menu #
+		SLP_Menu_Science1_CloseMenu = {
+			icon = generic_break_treaty
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu 
+			}
+			available = {
+			}
+			complete_effect = {
+				clr_country_flag = SLP_Menu_Science1_OpenMenu 
+			}
+			cost = 0
+			days_remove = 0
+			days_re_enable = 0
+			fire_only_once = no
+		}
+		
+		######### Science Decisions #########
+		#1910 Clean Towels and Sterile Equipment
+		SLP_GrowthDecs1_tech_1 = {
+			icon = generic_research
+
+			available = {
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_1}
+			}
+
+			modifier = {
+				research_speed_factor = -0.08
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				add_ideas = SLP_growthtech1_active_1
+				set_country_flag = SLP_GrowthDecs1_tech_1 
+			}
+		}
+		
+		#1930 Vitamin K Distribution
+		SLP_GrowthDecs1_tech_2 = {
+			icon = generic_research
+
+			available = {
+				#date > 1935.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_1
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_2}
+			}
+
+			modifier = {
+				research_speed_factor = -0.09
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech1_active_1
+					add_idea = SLP_growthtech2_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_2 
+			}
+		}
+		
+		#1935 Penicillin Manufacturing
+		SLP_GrowthDecs1_tech_3 = {
+			icon = generic_research
+
+			available = {
+				#date > 1935.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_2
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_3}
+			}
+
+			modifier = {
+				research_speed_factor = -0.10
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech2_active_1
+					add_idea = SLP_growthtech3_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_3 
+			}
+		}
+		
+		#1936 National Vaccine Stockpile
+		SLP_GrowthDecs1_tech_4 = {
+			icon = generic_research
+
+			available = {
+				#date > 1935.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_3
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_4}
+			}
+
+			modifier = {
+				research_speed_factor = -0.11
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech3_active_1
+					add_idea = SLP_growthtech4_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_4 
+			}
+		}
+		
+		#1937 Professional Midwifery
+		SLP_GrowthDecs1_tech_5 = {
+			icon = generic_research
+
+			available = {
+				date > 1937.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_4
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_5}
+			}
+
+			modifier = {
+				research_speed_factor = -0.12
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech4_active_1
+					add_idea = SLP_growthtech5_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_5 
+			}
+		}
+		
+		#1938 Subsidised Medical Care
+		SLP_GrowthDecs1_tech_6 = {
+			icon = generic_research
+
+			available = {
+				date > 1938.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_5
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_6}
+			}
+
+			modifier = {
+				research_speed_factor = -0.13
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech5_active_1
+					add_idea = SLP_growthtech6_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_6 
+			}
+		}
+		
+		#1939 National Milk Scheme
+		SLP_GrowthDecs1_tech_7 = {
+			icon = generic_research
+
+			available = {
+				date > 1939.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_6
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_7}
+			}
+
+			modifier = {
+				research_speed_factor = -0.14
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech6_active_1
+					add_idea = SLP_growthtech7_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_7 
+			}
+		}
+		
+		#1940 Vitamin Welfare Scheme
+		SLP_GrowthDecs1_tech_8 = {
+			icon = generic_research
+
+			available = {
+				date > 1940.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_7
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_8}
+			}
+
+			modifier = {
+				research_speed_factor = -0.15
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech7_active_1
+					add_idea = SLP_growthtech8_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_8 
+			}
+		}
+		
+		#1941 Obstetric Care
+		SLP_GrowthDecs1_tech_9 = {
+			icon = generic_research
+
+			available = {
+				date > 1941.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_8
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_9}
+			}
+
+			modifier = {
+				research_speed_factor = -0.16
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech8_active_1
+					add_idea = SLP_growthtech9_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_9 
+			}
+		}
+		
+		#1942 Extra Hospital Maternity Beds
+		SLP_GrowthDecs1_tech_10 = {
+			icon = generic_research
+
+			available = {
+				date > 1942.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_9
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_10}
+			}
+
+			modifier = {
+				research_speed_factor = -0.17
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech9_active_1
+					add_idea = SLP_growthtech10_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_10 
+			}
+		}
+		
+		#1943 Deep Tank Fermentation
+		SLP_GrowthDecs1_tech_11 = {
+			icon = generic_research
+
+			available = {
+				date > 1943.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_10
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_11}
+			}
+
+			modifier = {
+				research_speed_factor = -0.18
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech10_active_1
+					add_idea = SLP_growthtech11_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_11 
+			}
+		}
+		
+		#1944 Flying Doctor Service
+		SLP_GrowthDecs1_tech_12 = {
+			icon = generic_research
+
+			available = {
+				date > 1944.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_11
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_12}
+			}
+
+			modifier = {
+				research_speed_factor = -0.19
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech11_active_1
+					add_idea = SLP_growthtech12_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_12 
+			}
+		}
+		
+		#1945 Hospitalised Birth
+		SLP_GrowthDecs1_tech_13 = {
+			icon = generic_research
+
+			available = {
+				date > 1945.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_12
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_13}
+			}
+
+			modifier = {
+				research_speed_factor = -0.20
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech12_active_1
+					add_idea = SLP_growthtech13_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_13 
+			}
+		}
+		
+		#1945 Polio Vaccine Introduction
+		SLP_GrowthDecs1_tech_14 = {
+			icon = generic_research
+
+			available = {
+				date > 1955.01.01
+				has_country_flag = SLP_GrowthDecs1_tech_13
+			}
+
+			visible = {
+				has_country_flag = SLP_Menu_Science1_OpenMenu
+				NOT = {has_country_flag = SLP_GrowthDecs1_tech_14}
+			}
+
+			modifier = {
+				research_speed_factor = -0.21
+			}
+			
+			fire_only_once = no
+			days_remove = 90
+			days_re_enable = 100
+
+			cost = 0
+
+			remove_effect = {
+				swap_ideas = {
+					remove_idea = SLP_growthtech13_active_1
+					add_idea = SLP_growthtech14_active_1
+				}
+				set_country_flag = SLP_GrowthDecs1_tech_14 
+			}
+		}
+		
+}

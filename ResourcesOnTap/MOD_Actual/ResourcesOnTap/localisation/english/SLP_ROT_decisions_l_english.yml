@@ -45,10 +45,10 @@
  SLP_resource_tungsten_expansion_2:0 "Mass Tungsten Expansion §L10x Tungsten§!"
  SLP_resource_tungsten_expansion_2_desc:0 "Further fund and subsides massive industrial scale tungsten processing plants and the building of further industrial tungsten mines to heavily boost tungsten production in an owned state. Provides §L10x Tungsten§! to a random owned state."
 
- SLP_resource_oil_expansion_1:0 "Secondary Oil Expansion §g4x Oil§!"
+ SLP_resource_oil_expansion_1:0 "Secondary Oil Expansion §g2x Oil§!"
  SLP_resource_oil_expansion_1_desc:0 "Fund oil production and the building of industrial oil processing plants to boost oil production in an owned state. This decision requires the state have oil in the area. Provides §g2x Oil§! to a random owned state."
 
- SLP_resource_oil_expansion_2:0 "Mass Oil Expansion §g10x Oil§!"
+ SLP_resource_oil_expansion_2:0 "Mass Oil Expansion §g5x Oil§!"
  SLP_resource_oil_expansion_2_desc:0 "Further fund and subsides massive industrial scale oil processing plants and the building of further industrial oil wells to heavily boost oil production in an owned state. Provides §g5x Oil§! to a random owned state."
 
  SLP_resource_rubber_expansion_1:0 "Secondary Rubber Expansion §04x Rubber§!"

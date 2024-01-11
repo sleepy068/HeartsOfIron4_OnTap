@@ -1,0 +1,213 @@
+ideas = {
+
+	#Active - Growth Tech 1 - Clean Towels and Sterile Equipment
+	country = {
+		SLP_growthtech1_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 1.00
+			}
+		}
+	}
+	
+	#Active - Growth Tech 2 - Vitamin K Distribution
+	country = {
+		SLP_growthtech2_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 1.20
+			}
+		}
+	}
+	
+	#Active - Growth Tech 3 - Penicillin Manufacturing
+	country = {
+		SLP_growthtech3_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 1.70
+			}
+		}
+	}
+	
+	#Active - Growth Tech 4 - National Vaccine Stockpile
+	country = {
+		SLP_growthtech4_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 2.20
+			}
+		}
+	}
+	
+	#Active - Growth Tech 5 - Professional Midwifery
+	country = {
+		SLP_growthtech5_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 2.45
+			}
+		}
+	}
+	
+	#Active - Growth Tech 6 - Subsidised Medical Care
+	country = {
+		SLP_growthtech6_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 2.70
+			}
+		}
+	}
+	
+	#Active - Growth Tech 7 - National Milk Scheme
+	country = {
+		SLP_growthtech7_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 3.00
+			}
+		}
+	}
+	
+	#Active - Growth Tech 8 - Vitamin Welfare Scheme
+	country = {
+		SLP_growthtech8_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 3.30
+			}
+		}
+	}
+	
+	#Active - Growth Tech 9 - Obstetric Care
+	country = {
+		SLP_growthtech9_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 3.80
+			}
+		}
+	}
+	
+	#Active - Growth Tech 10 - Extra Hospital Maternity Beds
+	country = {
+		SLP_growthtech10_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 4.00
+			}
+		}
+	}
+	
+	#Active - Growth Tech 11 - Deep Tank Fermentation
+	country = {
+		SLP_growthtech11_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 4.30
+			}
+		}
+	}
+	
+	#Active - Growth Tech 12 - Flying Doctor Service
+	country = {
+		SLP_growthtech12_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 4.55
+			}
+		}
+	}
+	
+	#Active - Growth Tech 13 - Hospitalised Birth
+	country = {
+		SLP_growthtech13_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 4.90
+			}
+		}
+	}
+	
+	#Active - Growth Tech 14 - Polio Vaccine Introduction
+	country = {
+		SLP_growthtech14_active_1 = {
+			allowed = {
+			}
+			available = {
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				monthly_population = 5.40
+			}
+		}
+	}
+	
+}
