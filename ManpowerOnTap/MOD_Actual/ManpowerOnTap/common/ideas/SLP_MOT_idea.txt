@@ -10,7 +10,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_morale_bonus
 			modifier = {
-				monthly_population = 0.3
+				monthly_population = 0.60
 				consumer_goods_factor = 0.05
 				stability_factor = 0.03
 			}
@@ -27,7 +27,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_constitutional_guarantee
 			modifier = {
-				monthly_population = 0.2
+				monthly_population = 0.40
 				consumer_goods_factor = 0.03
 				stability_factor = 0.03
 			}
@@ -44,7 +44,7 @@ ideas = {
 			removal_cost = -1
 			picture = ITA_battaglie_per_la_nascite
 			modifier = {
-				monthly_population = 0.25
+				monthly_population = 0.50
 				political_power_cost = 0.05
 			}
 		}
@@ -60,7 +60,7 @@ ideas = {
 			removal_cost = -1
 			picture = NOR_printing_money
 			modifier = {
-				monthly_population = 0.25
+				monthly_population = 0.50
 				consumer_goods_factor = 0.03
 			}
 		}
@@ -76,7 +76,7 @@ ideas = {
 			removal_cost = -1
 			picture = office_of_strategic_services
 			modifier = {
-				monthly_population = 0.40
+				monthly_population = 0.80
 				consumer_goods_factor = 0.05
 			}
 		}
@@ -92,7 +92,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_foreign_capital
 			modifier = {
-				monthly_population = 0.40
+				monthly_population = 0.80
 				consumer_goods_factor = 0.05
 			}
 		}
@@ -108,7 +108,7 @@ ideas = {
 			removal_cost = -1
 			picture = fra_market_dynamism
 			modifier = {
-				monthly_population = 0.50
+				monthly_population = 1.00
 				stability_factor = -0.05
 			}
 		}
@@ -124,7 +124,7 @@ ideas = {
 			removal_cost = -1
 			picture = FRA_motorized_focus
 			modifier = {
-				monthly_population = 0.50
+				monthly_population = 0.80
 				drift_defence_factor  = -0.10
 			}
 		}
@@ -140,7 +140,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_manpower_bonus
 			modifier = {
-				monthly_population = 0.50
+				monthly_population = 1.00
 				stability_factor = -0.05
 			}
 		}
@@ -173,7 +173,7 @@ ideas = {
 			removal_cost = -1
 			picture = prc_low_popular_support2
 			modifier = {
-				monthly_population = 0.25
+				monthly_population = 0.50
 				political_power_cost = 0.05
 			}
 		}
@@ -189,7 +189,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_economic_crisis
 			modifier = {
-				monthly_population = 1.50
+				monthly_population = 3.00
 				consumer_goods_factor = 0.12
 				stability_factor = -0.07
 			}
@@ -227,6 +227,7 @@ ideas = {
 			picture = idea_generic_prisoner
 			modifier = {
 				conscription = 0.003
+				training_time_army_factor = 0.1
 			}
 		}
 	}
@@ -330,7 +331,7 @@ ideas = {
 				weekly_manpower = 400
 				political_power_cost = 0.15
 				consumer_goods_factor = 0.05
-				monthly_population = 0.10
+				monthly_population = 0.20
 			}
 		}
 	}
@@ -347,7 +348,7 @@ ideas = {
 			modifier = {
 				weekly_manpower = 250
 				political_power_cost = 0.10
-				monthly_population = 0.05
+				monthly_population = 0.10
 				drift_defence_factor  = -0.10
 			}
 		}
@@ -363,7 +364,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_spy_coup
 			modifier = {
-				monthly_population = 0.5
+				monthly_population = 1.00
 				stability_factor = -0.05
 			}
 		}
@@ -379,7 +380,7 @@ ideas = {
 			removal_cost = -1
 			picture = idea_generic_closed_economy
 			modifier = {
-				monthly_population = 0.5
+				monthly_population = 1.00
 				stability_factor = -0.05
 			}
 		}
@@ -395,7 +396,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_production_bonus
 			modifier = {
-				monthly_population = 0.75
+				monthly_population = 1.50
 				stability_factor = 0.03
 				consumer_goods_factor = 0.09
 			}
@@ -415,7 +416,7 @@ ideas = {
 				weekly_manpower = 400
 				political_power_cost = 0.10
 				consumer_goods_factor = 0.10
-				monthly_population = 0.10
+				monthly_population = 0.20
 			}
 		}
 	}
