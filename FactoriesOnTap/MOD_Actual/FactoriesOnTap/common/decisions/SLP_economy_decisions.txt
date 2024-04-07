@@ -573,7 +573,7 @@ economy_decisions_slp = {
 
 			complete_effect = {
 				add_ideas = SLP_civilian_factory_rent_active_1
-				add_offsite_building = { type = industrial_complex level =3 }
+				add_offsite_building = { type = industrial_complex level =6 }
 			}
 		}
 		
@@ -600,7 +600,7 @@ economy_decisions_slp = {
 
 			complete_effect = {
 				remove_ideas = SLP_civilian_factory_rent_active_1
-				add_offsite_building = { type = industrial_complex level =-3 }
+				add_offsite_building = { type = industrial_complex level =-6 }
 			}
 		}
 		
@@ -629,7 +629,7 @@ economy_decisions_slp = {
 
 			complete_effect = {
 				add_ideas = SLP_civilian_factory_rent_active_2
-				add_offsite_building = { type = industrial_complex level =7 }
+				add_offsite_building = { type = industrial_complex level =14 }
 			}
 		}
 		
@@ -656,7 +656,7 @@ economy_decisions_slp = {
 
 			complete_effect = {
 				remove_ideas = SLP_civilian_factory_rent_active_2
-				add_offsite_building = { type = industrial_complex level =-7 }
+				add_offsite_building = { type = industrial_complex level =-14 }
 			}
 		}
 		
