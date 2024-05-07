@@ -25,8 +25,8 @@
  SLP_growthdecs_adopt_stop_1:0 "Revoke Adoption Incentives"
  SLP_growthdecs_adopt_stop_1_desc:0 "Revoke the incentives in place for adoption."
  
- SLP_growthdecs_familyhealth_start_1:0 "Family Health Initiative §G+75%§! £population_texticon"
- SLP_growthdecs_familyhealth_start_1_desc:0 "Provide and streamline doctor and medical support for families, helping them better manage their overall health without burdening them with the medical costs. Provides a §G+75%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_familyhealth_start_1:0 "Family Health Initiative §G+80%§! £population_texticon"
+ SLP_growthdecs_familyhealth_start_1_desc:0 "Provide and streamline doctor and medical support for families, helping them better manage their overall health without burdening them with the medical costs. Provides a §G+80%§! increase to monthly population growth £population_texticon ."
  SLP_growthdecs_familyhealth_stop_1:0 "Revoke Family Health Initiative"
  SLP_growthdecs_familyhealth_stop_1_desc:0 "Revoke the support and controls in place for family health."
  
@@ -35,8 +35,8 @@
  SLP_growthdecs_multipart_stop_1:0 "Stop Encouraging Multiple Partners"
  SLP_growthdecs_multipart_stop_1_desc:0 "Shut down the active propaganda and efforts for the population to have multiple partners."
  
- SLP_growthdecs_familytax_start_1:0 "Family Tax Benefit §G+75%§! £population_texticon"
- SLP_growthdecs_familytax_start_1_desc:0 "Provide a tax reduction or rebate for families, helping reduce the costs of raising a family and making having children more affordable. Provides a §G+75%§! increase to monthly population growth £population_texticon ."
+ SLP_growthdecs_familytax_start_1:0 "Family Tax Benefit §G+80%§! £population_texticon"
+ SLP_growthdecs_familytax_start_1_desc:0 "Provide a tax reduction or rebate for families, helping reduce the costs of raising a family and making having children more affordable. Provides a §G+80%§! increase to monthly population growth £population_texticon ."
  SLP_growthdecs_familytax_stop_1:0 "Revoke Family Tax Benefit"
  SLP_growthdecs_familytax_stop_1_desc:0 "Revoke the tax benefits in place for families."
  
