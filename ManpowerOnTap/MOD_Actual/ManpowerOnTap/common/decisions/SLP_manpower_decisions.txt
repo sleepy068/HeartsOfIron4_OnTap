@@ -58,7 +58,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 20
+			cost = 10
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_finasupport_active_1
@@ -112,7 +112,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 30
+			cost = 15
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_encourgebirth_active_1
@@ -166,7 +166,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 30
+			cost = 15
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_adopt_active_1
@@ -220,7 +220,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 30
+			cost = 15
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_mutlipart_active_1
@@ -274,7 +274,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 40
+			cost = 20
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_childsupport_active_1
@@ -328,7 +328,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 45
+			cost = 20
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familyhealth_active_1
@@ -382,7 +382,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 45
+			cost = 20
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familytax_active_1
@@ -436,7 +436,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_hightaxnochild_active_1
@@ -490,7 +490,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_immigdrive_active_1
@@ -544,7 +544,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_childpolicy_active_1
@@ -598,7 +598,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_arrangedmarriage_active_1
@@ -652,7 +652,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_bancontraception_active_1
@@ -706,7 +706,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 60
+			cost = 30
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familypoverty_active_1
@@ -760,7 +760,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 60
+			cost = 30
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_familyfirst_active_1
@@ -814,7 +814,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 75
+			cost = 40
 
 			complete_effect = {
 				add_ideas = SLP_growthdecs_overshoot_active_1
@@ -904,7 +904,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_suitable_active_1
@@ -958,7 +958,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_penalbat_active_1
@@ -1012,7 +1012,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 50
+			cost = 25
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_foreignfight_active_1
@@ -1066,7 +1066,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_childlabour_active_1
@@ -1120,7 +1120,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_youthfighter_active_1
@@ -1174,7 +1174,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 100
+			cost = 50
 
 			complete_effect = {
 				add_ideas = SLP_recruitdecs_equality_active_1
@@ -1264,7 +1264,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			complete_effect = {
 				add_ideas = SLP_manpowerdecs_occupied_active_1
@@ -1318,7 +1318,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			complete_effect = {
 				add_ideas = SLP_manpowerdecs_welfarestate_active_1
@@ -1372,7 +1372,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			complete_effect = {
 				add_ideas = SLP_manpowerdecs_ideobeacon_active_1
@@ -1426,7 +1426,7 @@ manpower_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			complete_effect = {
 				add_ideas = SLP_manpowerdecs_basicincome_active_1

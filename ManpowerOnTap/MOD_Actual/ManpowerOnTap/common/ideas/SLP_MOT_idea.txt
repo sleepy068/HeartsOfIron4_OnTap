@@ -45,7 +45,7 @@ ideas = {
 			picture = ITA_battaglie_per_la_nascite
 			modifier = {
 				monthly_population = 0.50
-				political_power_cost = 0.05
+				consumer_goods_factor = 0.05
 			}
 		}
 	}
@@ -109,7 +109,7 @@ ideas = {
 			picture = fra_market_dynamism
 			modifier = {
 				monthly_population = 1.00
-				stability_factor = -0.05
+				stability_factor = -0.03
 			}
 		}
 	}
@@ -125,7 +125,7 @@ ideas = {
 			picture = FRA_motorized_focus
 			modifier = {
 				monthly_population = 0.80
-				drift_defence_factor  = -0.10
+				drift_defence_factor = -0.05
 			}
 		}
 	}
@@ -141,7 +141,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			modifier = {
 				monthly_population = 1.00
-				stability_factor = -0.05
+				stability_factor = -0.03
 			}
 		}
 	}
@@ -157,8 +157,8 @@ ideas = {
 			picture = idea_disarmed_nation
 			modifier = {
 				monthly_population = 1.00
-				conscription = -0.010
-				conscription_factor = -0.10
+				conscription = -0.005
+				conscription_factor = -0.05
 			}
 		}
 	}
@@ -174,7 +174,7 @@ ideas = {
 			picture = prc_low_popular_support2
 			modifier = {
 				monthly_population = 0.50
-				political_power_cost = 0.05
+				consumer_goods_factor = 0.05
 			}
 		}
 	}
@@ -191,7 +191,7 @@ ideas = {
 			modifier = {
 				monthly_population = 3.00
 				consumer_goods_factor = 0.12
-				stability_factor = -0.07
+				stability_factor = -0.04
 			}
 		}
 	}
@@ -211,7 +211,7 @@ ideas = {
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
-				stability_factor = -0.05
+				stability_factor = -0.03
 			}
 		}
 	}
@@ -244,7 +244,7 @@ ideas = {
 			modifier = {
 				conscription = 0.01
 				conscription_factor = 0.10
-				stability_factor = -0.05
+				stability_factor = -0.03
 			}
 		}
 	}
@@ -277,7 +277,7 @@ ideas = {
 			modifier = {
 				conscription = 0.015
 				conscription_factor = 0.12
-				stability_factor = -0.10
+				stability_factor = -0.05
 				war_support_factor = -0.05
 			}
 		}
@@ -313,7 +313,7 @@ ideas = {
 			picture = idea_generic_army_war_college
 			modifier = {
 				non_core_manpower = 0.10
-				political_power_cost = 0.15
+				political_power_cost = 0.10
 			}
 		}
 	}
@@ -329,7 +329,7 @@ ideas = {
 			picture = idea_generic_local_self_management
 			modifier = {
 				weekly_manpower = 400
-				political_power_cost = 0.15
+				political_power_cost = 0.10
 				consumer_goods_factor = 0.05
 				monthly_population = 0.20
 			}
@@ -365,7 +365,7 @@ ideas = {
 			picture = generic_spy_coup
 			modifier = {
 				monthly_population = 1.00
-				stability_factor = -0.05
+				stability_factor = -0.03
 			}
 		}
 	}
@@ -381,7 +381,7 @@ ideas = {
 			picture = idea_generic_closed_economy
 			modifier = {
 				monthly_population = 1.00
-				stability_factor = -0.05
+				stability_factor = -0.03
 			}
 		}
 	}
