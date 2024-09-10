@@ -48,11 +48,11 @@
  SLP_Menu_BuyRefFact1_OpenMenu:0 "Open Refinery Menu £BoP_right_texticon £fuel_texticon"
  SLP_Menu_BuyRefFact1_CloseMenu:0 "Close Refinery Menu £BoP_left_texticon"
  
- SLP_refinery_factory_buy_1:0 "§gAcquire 1 Refinery§! £fuel_texticon"
- SLP_refinery_factory_buy_1_desc:0 "Purchase 1 Refinery permanently. The refinery will be built and operated outside of our borders."
+ SLP_refinery_factory_buy_1:0 "§gAcquire 3 Refinery§! £fuel_texticon"
+ SLP_refinery_factory_buy_1_desc:0 "Purchase 3 Refinery permanently. The refinery will be built and operated outside of our borders."
  
- SLP_refinery_factory_buy_2:0 "§gAcquire 3 Refineries§! £fuel_texticon"
- SLP_refinery_factory_buy_2_desc:0 "Purchase 3 Refineries permanently. The refineries will be built and operated outside of our borders."
+ SLP_refinery_factory_buy_2:0 "§gAcquire 5 Refineries§! £fuel_texticon"
+ SLP_refinery_factory_buy_2_desc:0 "Purchase 5 Refineries permanently. The refineries will be built and operated outside of our borders."
  
  #RentFactories
  SLP_Menu_RentRefFact1_OpenMenu:0 "Open Lease Agreement Menu £BoP_right_texticon"
