@@ -28,40 +28,40 @@
  SLP_Menu_ResourceExpan_CloseMenu:0 "Close Resource Expansion Menu £BoP_left_texticon"
  
  SLP_resource_steel_expansion_1:0 "Secondary Steel Expansion §W8x Steel§!"
- SLP_resource_steel_expansion_1_desc:0 "Fund steel production and the building of industrial steel refineries to boost steel production in an owned state. This decision requires the state have steel in the area. Provides §W8x Steel§! to a random owned state."
+ SLP_resource_steel_expansion_1_desc:0 "Fund steel production and the building of industrial steel refineries to boost production in an owned state. This decision requires the state have steel in the area. Provides §W8x Steel§! to a random owned state."
 
  SLP_resource_steel_expansion_2:0 "Mass Steel Expansion §W20x Steel§!"
- SLP_resource_steel_expansion_2_desc:0 "Further fund and subsides massive industrial scale steel manufacturing plants and the building of further industrial iron mines to heavily boost steel production in an owned state. Provides §W20x Steel§! to a random owned state."
+ SLP_resource_steel_expansion_2_desc:0 "Further fund and subsides massive industrial scale steel manufacturing plants and the building of further industrial iron mines to heavily boost production in an owned state. Provides §W20x Steel§! to a random owned state."
 
  SLP_resource_chromium_expansion_1:0 "Secondary Chromium Expansion §34x Chromium§!"
- SLP_resource_chromium_expansion_1_desc:0 "Fund chromium production and the building of industrial chromium processing plants to boost chromium production in an owned state. This decision requires the state have chromium in the area. Provides §34x Chromium§! to a random owned state."
+ SLP_resource_chromium_expansion_1_desc:0 "Fund chromium production and the building of industrial chromium processing plants to boost production in an owned state. This decision requires the state have chromium in the area. Provides §34x Chromium§! to a random owned state."
 
  SLP_resource_chromium_expansion_2:0 "Mass Chromium Expansion §310x Chromium§!"
- SLP_resource_chromium_expansion_2_desc:0 "Further fund and subsides massive industrial scale chromium processing plants and the building of further industrial chromium mines to heavily boost chromium production in an owned state. Provides §310x Chromium§! to a random owned state."
+ SLP_resource_chromium_expansion_2_desc:0 "Further fund and subsides massive industrial scale chromium processing plants and the building of further industrial chromium mines to heavily boost production in an owned state. Provides §310x Chromium§! to a random owned state."
 
  SLP_resource_tungsten_expansion_1:0 "Secondary Tungsten Expansion §L4x Tungsten§!"
- SLP_resource_tungsten_expansion_1_desc:0 "Fund tungsten production and the building of industrial tungsten processing plants to boost tungsten production in an owned state. This decision requires the state have tungsten in the area. Provides §L4x Tungsten§! to a random owned state."
+ SLP_resource_tungsten_expansion_1_desc:0 "Fund tungsten production and the building of industrial tungsten processing plants to boost production in an owned state. This decision requires the state have tungsten in the area. Provides §L4x Tungsten§! to a random owned state."
 
  SLP_resource_tungsten_expansion_2:0 "Mass Tungsten Expansion §L10x Tungsten§!"
- SLP_resource_tungsten_expansion_2_desc:0 "Further fund and subsides massive industrial scale tungsten processing plants and the building of further industrial tungsten mines to heavily boost tungsten production in an owned state. Provides §L10x Tungsten§! to a random owned state."
+ SLP_resource_tungsten_expansion_2_desc:0 "Further fund and subsides massive industrial scale tungsten processing plants and the building of further industrial tungsten mines to heavily boost production in an owned state. Provides §L10x Tungsten§! to a random owned state."
 
  SLP_resource_oil_expansion_1:0 "Secondary Oil Expansion §g2x Oil§!"
- SLP_resource_oil_expansion_1_desc:0 "Fund oil production and the building of industrial oil processing plants to boost oil production in an owned state. This decision requires the state have oil in the area. Provides §g2x Oil§! to a random owned state."
+ SLP_resource_oil_expansion_1_desc:0 "Fund oil production and the building of industrial oil processing plants to boost production in an owned state. This decision requires the state have oil in the area. Provides §g2x Oil§! to a random owned state."
 
  SLP_resource_oil_expansion_2:0 "Mass Oil Expansion §g5x Oil§!"
- SLP_resource_oil_expansion_2_desc:0 "Further fund and subsides massive industrial scale oil processing plants and the building of further industrial oil wells to heavily boost oil production in an owned state. Provides §g5x Oil§! to a random owned state."
+ SLP_resource_oil_expansion_2_desc:0 "Further fund and subsides massive industrial scale oil processing plants and the building of further industrial oil wells to heavily boost production in an owned state. Provides §g5x Oil§! to a random owned state."
 
  SLP_resource_rubber_expansion_1:0 "Secondary Rubber Expansion §04x Rubber§!"
- SLP_resource_rubber_expansion_1_desc:0 "Fund large scale rubber plantations and the building of industrial rubber processing plants to boost rubber production in an owned state. This decision requires the state have rubber in the area. Provides §04x Rubber§! to a random owned state."
+ SLP_resource_rubber_expansion_1_desc:0 "Fund large scale rubber plantations and the building of industrial rubber processing plants to boost production in an owned state. This decision requires the state have rubber in the area. Provides §04x Rubber§! to a random owned state."
 
  SLP_resource_rubber_expansion_2:0 "Mass Rubber Expansion §010x Rubber§!"
- SLP_resource_rubber_expansion_2_desc:0 "Further fund and subsides massive industrial scale rubber plantations and processing plants to heavily boost rubber production in an owned state. Provides §010x Rubber§! to a random owned state."
+ SLP_resource_rubber_expansion_2_desc:0 "Further fund and subsides massive industrial scale rubber plantations and processing plants to heavily boost production in an owned state. Provides §010x Rubber§! to a random owned state."
 
  SLP_resource_aluminium_expansion_1:0 "Secondary Aluminium Expansion §94x Aluminium§!"
- SLP_resource_aluminium_expansion_1_desc:0 "Fund aluminium production and the building of industrial aluminium processing plants to boost aluminium production in an owned state. This decision requires the state have aluminium in the area. Provides §94x Aluminium§! to a random owned state."
+ SLP_resource_aluminium_expansion_1_desc:0 "Fund aluminium production and the building of industrial aluminium processing plants to boost production in an owned state. This decision requires the state have aluminium in the area. Provides §94x Aluminium§! to a random owned state."
 
  SLP_resource_aluminium_expansion_2:0 "Mass Aluminium Expansion §910x Aluminium§!"
- SLP_resource_aluminium_expansion_2_desc:0 "Further fund and subsides massive industrial scale aluminium processing plants and the building of further industrial bauxite mines to heavily boost aluminium production in an owned state. Provides §910x Aluminium§! to a random owned state."
+ SLP_resource_aluminium_expansion_2_desc:0 "Further fund and subsides massive industrial scale aluminium processing plants and the building of further industrial bauxite mines to heavily boost production in an owned state. Provides §910x Aluminium§! to a random owned state."
 
  
  

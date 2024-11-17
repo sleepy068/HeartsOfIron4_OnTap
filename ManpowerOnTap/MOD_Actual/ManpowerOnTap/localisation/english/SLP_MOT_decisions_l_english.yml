@@ -96,7 +96,7 @@
  SLP_growthdecs_arrangedmarriage_active_1:0 "State Arranged Marriages"
  SLP_growthdecs_bancontraception_active_1:0 "Ban Contraception"
  SLP_growthdecs_familypoverty_active_1:0 "Family Poverty Eradication"
- SLP_growthdecs_adopt_start_1:0 "Incentivise Adoption "
+ SLP_growthdecs_adopt_active_1:0 "Incentivise Adoption"
  
  #RecruitmentExpansion
  SLP_Menu_RecruitDecs1_OpenMenu:0 "Open Recruitment Expansion Menu £BoP_right_texticon £manpower_texticon"

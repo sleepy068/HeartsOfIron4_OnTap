@@ -111,7 +111,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 15
+			cost = 40
 
 			complete_effect = {
 				add_offsite_building = { type = industrial_complex level =1 }
@@ -137,7 +137,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 45
+			cost = 120
 
 			complete_effect = {
 				add_offsite_building = { type = industrial_complex level =3 }
@@ -163,7 +163,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 75
+			cost = 200
 
 			complete_effect = {
 				add_offsite_building = { type = industrial_complex level =5 }
@@ -189,7 +189,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 150
+			cost = 400
 
 			complete_effect = {
 				add_offsite_building = { type = industrial_complex level =10 }
@@ -251,7 +251,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 30
+			cost = 100
 
 			complete_effect = {
 				add_offsite_building = { type = arms_factory level =1 }
@@ -277,7 +277,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 90
+			cost = 300
 
 			complete_effect = {
 				add_offsite_building = { type = arms_factory level =3 }
@@ -303,7 +303,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 150
+			cost = 500
 
 			complete_effect = {
 				add_offsite_building = { type = arms_factory level =5 }
@@ -365,7 +365,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 20
+			cost = 75
 
 			complete_effect = {
 				add_offsite_building = { type = dockyard level =1 }
@@ -391,7 +391,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 60
+			cost = 225
 
 			complete_effect = {
 				add_offsite_building = { type = dockyard level =3 }
@@ -417,7 +417,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 100
+			cost = 375
 
 			complete_effect = {
 				add_offsite_building = { type = dockyard level =5 }
@@ -479,7 +479,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 60
+			cost = 300
 
 			complete_effect = {
 				add_offsite_building = { type = synthetic_refinery level =3 }
@@ -505,7 +505,7 @@ economy_decisions_slp = {
 			days_remove = 0
 			days_re_enable = 30
 
-			cost = 100
+			cost = 500
 
 			complete_effect = {
 				add_offsite_building = { type = synthetic_refinery level =5 }

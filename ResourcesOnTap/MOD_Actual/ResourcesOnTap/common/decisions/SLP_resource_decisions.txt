@@ -56,10 +56,10 @@ resource_decisions_slp = {
 			fire_only_once = no
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
-			days_remove = 90
+			days_remove = 120
 			days_re_enable = 0
 
-			cost = 10
+			cost = 40
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -87,10 +87,10 @@ resource_decisions_slp = {
 			fire_only_once = no
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
-			days_remove = 90
+			days_remove = 120
 			days_re_enable = 0
 
-			cost = 10
+			cost = 40
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -118,10 +118,10 @@ resource_decisions_slp = {
 			fire_only_once = no
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
-			days_remove = 90
+			days_remove = 120
 			days_re_enable = 0
 
-			cost = 10
+			cost = 40
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -149,10 +149,10 @@ resource_decisions_slp = {
 			fire_only_once = no
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
-			days_remove = 90
+			days_remove = 120
 			days_re_enable = 0
 
-			cost = 10
+			cost = 40
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -180,10 +180,10 @@ resource_decisions_slp = {
 			fire_only_once = no
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
-			days_remove = 90
+			days_remove = 120
 			days_re_enable = 0
 
-			cost = 10
+			cost = 40
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -211,10 +211,10 @@ resource_decisions_slp = {
 			fire_only_once = no
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
-			days_remove = 90
+			days_remove = 120
 			days_re_enable = 0
 
-			cost = 10
+			cost = 40
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -289,10 +289,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 45
+			days_remove = 60
 			days_re_enable = 0
 
-			cost = 20
+			cost = 80
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -331,10 +331,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 60
+			days_remove = 90
 			days_re_enable = 0
 
-			cost = 40
+			cost = 200
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -373,10 +373,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 45
+			days_remove = 60
 			days_re_enable = 0
 
-			cost = 20
+			cost = 80
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -415,10 +415,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 60
+			days_remove = 90
 			days_re_enable = 0
 
-			cost = 40
+			cost = 200
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -457,10 +457,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 45
+			days_remove = 60
 			days_re_enable = 0
 
-			cost = 20
+			cost = 80
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -499,10 +499,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 60
+			days_remove = 90
 			days_re_enable = 0
 
-			cost = 40
+			cost = 200
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -541,10 +541,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 45
+			days_remove = 60
 			days_re_enable = 0
 
-			cost = 20
+			cost = 80
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -583,10 +583,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 60
+			days_remove = 90
 			days_re_enable = 0
 
-			cost = 40
+			cost = 200
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -625,10 +625,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 45
+			days_remove = 60
 			days_re_enable = 0
 
-			cost = 20
+			cost = 80
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -667,10 +667,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 60
+			days_remove = 90
 			days_re_enable = 0
 
-			cost = 40
+			cost = 200
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -709,10 +709,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 45
+			days_remove = 60
 			days_re_enable = 0
 
-			cost = 20
+			cost = 80
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -751,10 +751,10 @@ resource_decisions_slp = {
 			fixed_random_seed = no
 			on_map_mode = decision_view_only
 			state_target = yes
-			days_remove = 60
+			days_remove = 90
 			days_re_enable = 0
 
-			cost = 40
+			cost = 200
 
 			remove_effect = {
 				random_owned_controlled_state = {

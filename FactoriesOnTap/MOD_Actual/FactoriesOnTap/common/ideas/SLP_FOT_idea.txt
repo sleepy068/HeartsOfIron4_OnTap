@@ -10,7 +10,7 @@ ideas = {
 			removal_cost = -1
 			picture = civilian_economy
 			modifier = {
-				political_power_cost = 0.10
+				political_power_cost = 0.25
 			}
 		}
 	}
@@ -25,7 +25,7 @@ ideas = {
 			removal_cost = -1
 			picture = civilian_economy
 			modifier = {
-				political_power_cost = 0.20
+				political_power_cost = 0.50
 			}
 		}
 	}
@@ -40,7 +40,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_war_preparation
 			modifier = {
-				political_power_cost = 0.10
+				political_power_cost = 0.40
 			}
 		}
 	}
@@ -55,7 +55,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_war_preparation
 			modifier = {
-				political_power_cost = 0.20
+				political_power_cost = 0.80
 			}
 		}
 	}
@@ -70,7 +70,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_coastal_navy
 			modifier = {
-				political_power_cost = 0.10
+				political_power_cost = 0.30
 			}
 		}
 	}
@@ -85,7 +85,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_coastal_navy
 			modifier = {
-				political_power_cost = 0.20
+				political_power_cost = 0.60
 			}
 		}
 	}
@@ -100,7 +100,7 @@ ideas = {
 			removal_cost = -1
 			picture = civilian_economy
 			modifier = {
-				political_power_cost = 0.01
+				political_power_cost = 0.05
 			}
 		}
 	}
