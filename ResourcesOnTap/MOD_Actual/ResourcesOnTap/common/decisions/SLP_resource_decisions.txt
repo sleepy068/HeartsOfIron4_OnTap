@@ -59,7 +59,7 @@ resource_decisions_slp = {
 			days_remove = 120
 			days_re_enable = 0
 
-			cost = 40
+			cost = 30
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -90,7 +90,7 @@ resource_decisions_slp = {
 			days_remove = 120
 			days_re_enable = 0
 
-			cost = 40
+			cost = 30
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -121,7 +121,7 @@ resource_decisions_slp = {
 			days_remove = 120
 			days_re_enable = 0
 
-			cost = 40
+			cost = 30
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -152,7 +152,7 @@ resource_decisions_slp = {
 			days_remove = 120
 			days_re_enable = 0
 
-			cost = 40
+			cost = 30
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -183,7 +183,7 @@ resource_decisions_slp = {
 			days_remove = 120
 			days_re_enable = 0
 
-			cost = 40
+			cost = 30
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -214,7 +214,7 @@ resource_decisions_slp = {
 			days_remove = 120
 			days_re_enable = 0
 
-			cost = 40
+			cost = 30
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -292,7 +292,7 @@ resource_decisions_slp = {
 			days_remove = 60
 			days_re_enable = 0
 
-			cost = 80
+			cost = 60
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -334,7 +334,7 @@ resource_decisions_slp = {
 			days_remove = 90
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -376,7 +376,7 @@ resource_decisions_slp = {
 			days_remove = 60
 			days_re_enable = 0
 
-			cost = 80
+			cost = 60
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -418,7 +418,7 @@ resource_decisions_slp = {
 			days_remove = 90
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -460,7 +460,7 @@ resource_decisions_slp = {
 			days_remove = 60
 			days_re_enable = 0
 
-			cost = 80
+			cost = 60
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -502,7 +502,7 @@ resource_decisions_slp = {
 			days_remove = 90
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -544,7 +544,7 @@ resource_decisions_slp = {
 			days_remove = 60
 			days_re_enable = 0
 
-			cost = 80
+			cost = 60
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -586,7 +586,7 @@ resource_decisions_slp = {
 			days_remove = 90
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -628,7 +628,7 @@ resource_decisions_slp = {
 			days_remove = 60
 			days_re_enable = 0
 
-			cost = 80
+			cost = 60
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -670,7 +670,7 @@ resource_decisions_slp = {
 			days_remove = 90
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -712,7 +712,7 @@ resource_decisions_slp = {
 			days_remove = 60
 			days_re_enable = 0
 
-			cost = 80
+			cost = 60
 
 			remove_effect = {
 				random_owned_controlled_state = {
@@ -754,7 +754,7 @@ resource_decisions_slp = {
 			days_remove = 90
 			days_re_enable = 0
 
-			cost = 200
+			cost = 150
 
 			remove_effect = {
 				random_owned_controlled_state = {
