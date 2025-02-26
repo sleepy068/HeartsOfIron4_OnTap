@@ -3,4 +3,4 @@ tags={
 	"Gameplay"
 }
 name="SLP_ManpowerOnTap"
-supported_version="1.15.0"
+supported_version="1.15.*"
